@@ -1,0 +1,23 @@
+{
+  "native_original_files_preserved": 41,
+  "source_tree_and_snapshot_audit_agree": true,
+  "all_coordinate_gradient_checks_pass": true,
+  "static_cases_checked": 15,
+  "time_integration_in_static_study": false,
+  "six_output_hook_verified": true,
+  "archived_evolved_grids": [
+    256,
+    512
+  ],
+  "matched_1024_evolved_state_available": false,
+  "author_credit": "Yohannes Beyene Ashebo",
+  "license": "Apache-2.0",
+  "doi": null,
+  "unresolved": [
+    "total-flux sign reversals",
+    "evolved-solution spatial convergence",
+    "far-region torque-density growth under native cap preparation",
+    "physical calibration and empirical validation"
+  ],
+  "public_repository_url": "https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian"
+}

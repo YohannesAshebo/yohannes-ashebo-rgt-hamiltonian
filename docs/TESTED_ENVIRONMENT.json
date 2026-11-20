@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "platform": "Linux",
+  "architecture": "x86_64",
+  "longdouble_epsilon": 1.0842021724855044e-19,
+  "license_source": "Apache License 2.0 standard text, bundled LICENSE.APACHE; authoritative reference https://www.apache.org/licenses/LICENSE-2.0.txt"
+}
