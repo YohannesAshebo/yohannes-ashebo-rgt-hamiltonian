@@ -1,0 +1,18 @@
+[
+  {
+    "cells": 256,
+    "s": 90,
+    "kappa": 100,
+    "finite_difference_power": -0.0015018719013121067,
+    "heat_power": 0.0015018719018554476,
+    "absolute_residual": 5.433409798472066e-13
+  },
+  {
+    "cells": 512,
+    "s": 90,
+    "kappa": 100,
+    "finite_difference_power": -0.00550508013045679,
+    "heat_power": 0.005505080141076166,
+    "absolute_residual": 1.0619376038245587e-11
+  }
+]
