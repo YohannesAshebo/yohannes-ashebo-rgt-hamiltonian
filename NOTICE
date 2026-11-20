@@ -1,0 +1,20 @@
+Ashebo RGT Hamiltonian Reference Solver and Numerical Audit
+Version 0.1.0
+
+Copyright 2026 Yohannes Beyene Ashebo
+
+Research program and project direction: Yohannes Beyene Ashebo, Ashebophysics.
+Numerical implementation, audit development and release preparation were
+assisted by OpenAI ChatGPT. This statement describes the development workflow;
+it does not imply endorsement or independent peer review by OpenAI.
+
+Project software and documentation are offered under the Apache License,
+Version 2.0. The native reference files are preserved in their original form;
+the licensing grant for this release also covers the project-owned material
+in native/ and the project-owned snapshots in inputs/.
+
+NumPy, SciPy and Matplotlib are separately installed dependencies and retain
+their own licenses. See THIRD_PARTY_NOTICES.md.
+
+Citation is requested through CITATION.cff. This request adds no restriction
+or condition to the Apache License.

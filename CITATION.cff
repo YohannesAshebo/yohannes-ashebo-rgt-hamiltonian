@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this reference solver or audit in research, please cite this software."
+type: software
+title: "Ashebo RGT Hamiltonian Reference Solver and Numerical Audit"
+version: 0.1.0
+date-released: "2026-11-20"
+license: Apache-2.0
+authors:
+  - family-names: Ashebo
+    given-names: Yohannes Beyene
+    affiliation: Ashebophysics
+url: "https://ashebophysics.com"
+repository-code: "https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian"
+abstract: >-
+  Reference source and reproducible numerical audits for the radial
+  Relational Gap Theory counterflow Hamiltonian. Includes saved 256- and
+  512-cell states, independent energy and gradient checks, heat-power
+  accounting, and guarded grid-convergence analysis. This research preview
+  preserves unresolved flux-direction and spatial-convergence findings.
+keywords:
+  - Hamiltonian
+  - counterflow
+  - numerical verification
+  - Relational Gap Theory
+  - reproducible research
