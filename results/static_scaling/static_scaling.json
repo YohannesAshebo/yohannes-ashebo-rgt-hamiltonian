@@ -1,0 +1,808 @@
+{
+  "test_kind": "zero_integration_manufactured_profile_operator_study",
+  "time_integration_performed": false,
+  "grids": [
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "active_exchange_strength": 0.04080087121508541,
+  "kappa": 100,
+  "operator_jbar": "arithmetic mean of paired complete face current PER PROPER AREA, not shell-integrated current",
+  "native_canonical_sign": "N_dot = +H_theta/eta; theta_dot = -H_N/eta",
+  "provided_theta_C_outer_derivative": 3.199871327890515e-05,
+  "boundary_note": "The supplied theta_C has a small nonzero derivative at r=8. Vanishing phase derivative would not alone impose zero directional current; the cap/boundary law matters.",
+  "families": [
+    {
+      "family": "native_grid_preparation",
+      "rows": [
+        {
+          "cells": 128,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.0625,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.14551743791512847,
+          "H": 877.9130302296711,
+          "heat_power": 0.0033788222675721433,
+          "max_abs_jbar": 0.004973671748591047,
+          "max_abs_D_over_V": 0.06450675494259356,
+          "heat_identity_abs_error": 0.0
+        },
+        {
+          "cells": 256,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.03125,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455203913538684,
+          "H": 880.0471823873492,
+          "heat_power": 0.0034834533486740285,
+          "max_abs_jbar": 0.005077460511555821,
+          "max_abs_D_over_V": 0.06887713717772359,
+          "heat_identity_abs_error": 0.0
+        },
+        {
+          "cells": 512,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.015625,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.14552112914283558,
+          "H": 881.0367950151448,
+          "heat_power": 0.003535868978784666,
+          "max_abs_jbar": 0.005148675187405602,
+          "max_abs_D_over_V": 0.11473244414540955,
+          "heat_identity_abs_error": 0.0
+        },
+        {
+          "cells": 1024,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.0078125,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.14552131355443448,
+          "H": 881.4199147527466,
+          "heat_power": 0.003561965998421587,
+          "max_abs_jbar": 0.005184256206463795,
+          "max_abs_D_over_V": 0.30960902689591735,
+          "heat_identity_abs_error": 2.117582368135751e-22
+        },
+        {
+          "cells": 2048,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.00390625,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.14552135965510693,
+          "H": 881.425096553185,
+          "heat_power": 0.003574966965647661,
+          "max_abs_jbar": 0.005198533440456172,
+          "max_abs_D_over_V": 1.0769695583095753,
+          "heat_identity_abs_error": 0.0
+        }
+      ],
+      "doubling_ratios": [
+        {
+          "coarse": 128,
+          "fine": 256,
+          "ratio": 1.030966731250137,
+          "alpha": 0.04399777845301543
+        },
+        {
+          "coarse": 256,
+          "fine": 512,
+          "ratio": 1.015047030881177,
+          "alpha": 0.0215465743534264
+        },
+        {
+          "coarse": 512,
+          "fine": 1024,
+          "ratio": 1.0073806523356788,
+          "alpha": 0.010608928100584688
+        },
+        {
+          "coarse": 1024,
+          "fine": 2048,
+          "ratio": 1.003649941417699,
+          "alpha": 0.005256165858743616
+        }
+      ],
+      "richardson_triads": [
+        {
+          "grids": [
+            128,
+            256,
+            512
+          ],
+          "values": [
+            0.0033788222675721433,
+            0.0034834533486740285,
+            0.003535868978784666
+          ],
+          "d_coarse": 0.00010463108110188519,
+          "d_fine": 5.241563011063738e-05,
+          "p": 0.9972424875141698,
+          "q_infinity": 0.0035884855554442385,
+          "status": "conditional_single_term_error_estimate",
+          "asymptotic_regime_proved": false,
+          "mechanism_identified": false
+        },
+        {
+          "grids": [
+            256,
+            512,
+            1024
+          ],
+          "values": [
+            0.0034834533486740285,
+            0.003535868978784666,
+            0.003561965998421587
+          ],
+          "d_coarse": 5.241563011063738e-05,
+          "d_fine": 2.6097019636921095e-05,
+          "p": 1.0061120254252618,
+          "q_infinity": 0.0035878432929166743,
+          "status": "conditional_single_term_error_estimate",
+          "asymptotic_regime_proved": false,
+          "mechanism_identified": false
+        },
+        {
+          "grids": [
+            512,
+            1024,
+            2048
+          ],
+          "values": [
+            0.003535868978784666,
+            0.003561965998421587,
+            0.003574966965647661
+          ],
+          "d_coarse": 2.6097019636921095e-05,
+          "d_fine": 1.3000967226073964e-05,
+          "p": 1.0052660971508927,
+          "q_infinity": 0.0035878735380643575,
+          "status": "conditional_single_term_error_estimate",
+          "asymptotic_regime_proved": false,
+          "mechanism_identified": false
+        }
+      ],
+      "continuum_limit_proved": false,
+      "historical_s90_dynamics_explained": false
+    },
+    {
+      "family": "continuum_native_caps",
+      "rows": [
+        {
+          "cells": 128,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.0625,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 882.2133156299486,
+          "heat_power": 0.0033810649402980066,
+          "max_abs_jbar": 0.004973795023530142,
+          "max_abs_D_over_V": 0.06490346904589087,
+          "heat_identity_abs_error": 2.117582368135751e-22
+        },
+        {
+          "cells": 256,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.03125,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 882.2154200557015,
+          "heat_power": 0.0034840247107007305,
+          "max_abs_jbar": 0.005077492464095077,
+          "max_abs_D_over_V": 0.06899966696577083,
+          "heat_identity_abs_error": 0.0
+        },
+        {
+          "cells": 512,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.015625,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 882.2163541108781,
+          "heat_power": 0.00353601274607174,
+          "max_abs_jbar": 0.005148683206781094,
+          "max_abs_D_over_V": 0.0709791708309563,
+          "heat_identity_abs_error": 2.117582368135751e-22
+        },
+        {
+          "cells": 1024,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.0078125,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 882.2167915493333,
+          "heat_power": 0.003562002026681826,
+          "max_abs_jbar": 0.005184258215408068,
+          "max_abs_D_over_V": 0.07193573346660172,
+          "heat_identity_abs_error": 0.0
+        },
+        {
+          "cells": 2048,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.00390625,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 882.2170028786624,
+          "heat_power": 0.003574975981546863,
+          "max_abs_jbar": 0.0051985339163822366,
+          "max_abs_D_over_V": 0.07240357918503598,
+          "heat_identity_abs_error": 0.0
+        }
+      ],
+      "doubling_ratios": [
+        {
+          "coarse": 128,
+          "fine": 256,
+          "ratio": 1.0304518760274535,
+          "alpha": 0.043277129973988894
+        },
+        {
+          "coarse": 256,
+          "fine": 512,
+          "ratio": 1.0149218331349186,
+          "alpha": 0.021368618749192006
+        },
+        {
+          "coarse": 512,
+          "fine": 1024,
+          "ratio": 1.0073498831809806,
+          "alpha": 0.010564862151202128
+        },
+        {
+          "coarse": 1024,
+          "fine": 2048,
+          "ratio": 1.0036423210227994,
+          "alpha": 0.005245211892411007
+        }
+      ],
+      "richardson_triads": [
+        {
+          "grids": [
+            128,
+            256,
+            512
+          ],
+          "values": [
+            0.0033810649402980066,
+            0.0034840247107007305,
+            0.00353601274607174
+          ],
+          "d_coarse": 0.00010295977040272394,
+          "d_fine": 5.198803537100928e-05,
+          "p": 0.9858291996221713,
+          "q_infinity": 0.0035890373452943415,
+          "status": "conditional_single_term_error_estimate",
+          "asymptotic_regime_proved": false,
+          "mechanism_identified": false
+        },
+        {
+          "grids": [
+            256,
+            512,
+            1024
+          ],
+          "values": [
+            0.0034840247107007305,
+            0.00353601274607174,
+            0.003562002026681826
+          ],
+          "d_coarse": 5.198803537100928e-05,
+          "d_fine": 2.5989280610086082e-05,
+          "p": 1.00026293657608,
+          "q_infinity": 0.00358798183659353,
+          "status": "conditional_single_term_error_estimate",
+          "asymptotic_regime_proved": false,
+          "mechanism_identified": false
+        },
+        {
+          "grids": [
+            512,
+            1024,
+            2048
+          ],
+          "values": [
+            0.00353601274607174,
+            0.003562002026681826,
+            0.003574975981546863
+          ],
+          "d_coarse": 2.5989280610086082e-05,
+          "d_fine": 1.297395486503719e-05,
+          "p": 1.0022983752360386,
+          "q_infinity": 0.00358790869703453,
+          "status": "conditional_single_term_error_estimate",
+          "asymptotic_regime_proved": false,
+          "mechanism_identified": false
+        }
+      ],
+      "continuum_limit_proved": false,
+      "historical_s90_dynamics_explained": false
+    },
+    {
+      "family": "boundary_regular_cap_control",
+      "rows": [
+        {
+          "cells": 128,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.0625,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 246.57995768776368,
+          "heat_power": 0.0024802205659649646,
+          "max_abs_jbar": 0.004805663343641006,
+          "max_abs_D_over_V": 0.06489641357739341,
+          "heat_identity_abs_error": 0.0
+        },
+        {
+          "cells": 256,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.03125,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 246.58210023422004,
+          "heat_power": 0.0025609411943470677,
+          "max_abs_jbar": 0.004910178017627855,
+          "max_abs_D_over_V": 0.06899768729044933,
+          "heat_identity_abs_error": 0.0
+        },
+        {
+          "cells": 512,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.015625,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 246.5830102656992,
+          "heat_power": 0.002601784473999016,
+          "max_abs_jbar": 0.004976869294015002,
+          "max_abs_D_over_V": 0.07097864615383002,
+          "heat_identity_abs_error": 0.0
+        },
+        {
+          "cells": 1024,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.0078125,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 246.58342499567277,
+          "heat_power": 0.002622212465313939,
+          "max_abs_jbar": 0.005010154642364981,
+          "max_abs_D_over_V": 0.07193559843333919,
+          "heat_identity_abs_error": 0.0
+        },
+        {
+          "cells": 2048,
+          "time": null,
+          "time_integrated": false,
+          "state_kind": "manufactured_smooth_profile",
+          "outer_radius": 8,
+          "dx": 0.00390625,
+          "active_exchange_strength": 0.04080087121508541,
+          "kappa": 100,
+          "j0": 4.60963676251496e-16,
+          "p0": 0.1455213750217998,
+          "H": 246.58362233069647,
+          "heat_power": 0.0026324113678773946,
+          "max_abs_jbar": 0.0050233932267702685,
+          "max_abs_D_over_V": 0.07240354493607602,
+          "heat_identity_abs_error": 0.0
+        }
+      ],
+      "doubling_ratios": [
+        {
+          "coarse": 128,
+          "fine": 256,
+          "ratio": 1.0325457459267127,
+          "alpha": 0.046205700249671876
+        },
+        {
+          "coarse": 256,
+          "fine": 512,
+          "ratio": 1.015948542567906,
+          "alpha": 0.02282733197020122
+        },
+        {
+          "coarse": 512,
+          "fine": 1024,
+          "ratio": 1.0078515309469598,
+          "alpha": 0.011283127585243998
+        },
+        {
+          "coarse": 1024,
+          "fine": 2048,
+          "ratio": 1.0038894264665295,
+          "alpha": 0.005600372203566556
+        }
+      ],
+      "richardson_triads": [
+        {
+          "grids": [
+            128,
+            256,
+            512
+          ],
+          "values": [
+            0.0024802205659649646,
+            0.0025609411943470677,
+            0.002601784473999016
+          ],
+          "d_coarse": 8.072062838210313e-05,
+          "d_fine": 4.084327965194834e-05,
+          "p": 0.9828386883294935,
+          "q_infinity": 0.0026436170818791333,
+          "status": "conditional_single_term_error_estimate",
+          "asymptotic_regime_proved": false,
+          "mechanism_identified": false
+        },
+        {
+          "grids": [
+            256,
+            512,
+            1024
+          ],
+          "values": [
+            0.0025609411943470677,
+            0.002601784473999016,
+            0.002622212465313939
+          ],
+          "d_coarse": 4.084327965194834e-05,
+          "d_fine": 2.042799131492289e-05,
+          "p": 0.9995513662460835,
+          "q_infinity": 0.0026426531675109166,
+          "status": "conditional_single_term_error_estimate",
+          "asymptotic_regime_proved": false,
+          "mechanism_identified": false
+        },
+        {
+          "grids": [
+            512,
+            1024,
+            2048
+          ],
+          "values": [
+            0.002601784473999016,
+            0.002622212465313939,
+            0.0026324113678773946
+          ],
+          "d_coarse": 2.042799131492289e-05,
+          "d_fine": 1.0198902563455722e-05,
+          "p": 1.0021334291295767,
+          "q_infinity": 0.002642580173332714,
+          "status": "conditional_single_term_error_estimate",
+          "asymptotic_regime_proved": false,
+          "mechanism_identified": false
+        }
+      ],
+      "continuum_limit_proved": false,
+      "historical_s90_dynamics_explained": false
+    }
+  ],
+  "saved_checkpoint_radial_comparison": {
+    "original_records": [
+      {
+        "cells": 256,
+        "time": 90,
+        "state_kind": "archived_evolved_checkpoint",
+        "active_exchange_strength": 0.040797055779828346,
+        "heat_power": 0.001501871901855448,
+        "core": {
+          "exists": true,
+          "coordinate_radius": 2.3220754447392817,
+          "areal_radius": 2.3234391131170153,
+          "areal_radius_rate": -0.0005489673899994569,
+          "volume_radius": 2.3015808359451584,
+          "total_content": 50.843454515362055,
+          "signed_content": 2.376621294802174,
+          "coordinate_radius_rate": -4.512388024676351e-06,
+          "moving_total_budget_error": 3.441071348220595e-21,
+          "moving_signed_budget_error": 4.129285617864714e-21,
+          "total_rate": -0.00030637434996232517,
+          "signed_rate": -0.00012948877011703742,
+          "boundary_motion_term": -0.00030620402714966877,
+          "scope": "Fractional shell-cell definition with exact discrete weight derivative; not a continuum moving-surface qualification"
+        },
+        "heat_identity_abs_error": 0.0,
+        "fixed_omega_readout_only": false
+      },
+      {
+        "cells": 512,
+        "time": 90,
+        "state_kind": "archived_evolved_checkpoint",
+        "active_exchange_strength": 0.04080087121508541,
+        "heat_power": 0.0055050801410761645,
+        "core": {
+          "exists": true,
+          "coordinate_radius": 2.3223877217446427,
+          "areal_radius": 2.323565676530776,
+          "areal_radius_rate": -0.009613469485783071,
+          "volume_radius": 2.3029625437767702,
+          "total_content": 50.94459401011702,
+          "signed_content": 2.3031643833842588,
+          "coordinate_radius_rate": 1.6900665269626132e-05,
+          "moving_total_budget_error": 9.423241538204091e-21,
+          "moving_signed_budget_error": 3.5419873829520645e-21,
+          "total_rate": 0.0011452496280757267,
+          "signed_rate": 2.3058101483491005e-05,
+          "boundary_motion_term": 0.0011452494922639428,
+          "scope": "Fractional shell-cell definition with exact discrete weight derivative; not a continuum moving-surface qualification"
+        },
+        "heat_identity_abs_error": 4.235164736271502e-22,
+        "fixed_omega_readout_only": false
+      }
+    ],
+    "ratio": 3.6654791492370675,
+    "net_jump": 0.0040032082392207164,
+    "coordinate": "common reference-coordinate shells, not aligned areal-radius cells",
+    "top_shells": [
+      {
+        "coarse_cell": 24,
+        "r": 0.765625,
+        "coarse_cell_power": 8.904057312760455e-05,
+        "fine_binned_cell_power": 0.0025609444364326816,
+        "dQ_dr_256": 0.0028492983400833457,
+        "dQ_dr_512_binned": 0.08195022196584581,
+        "power_difference": 0.0024719038633050773,
+        "fraction_of_net_jump": 0.617480709368811
+      },
+      {
+        "coarse_cell": 47,
+        "r": 1.484375,
+        "coarse_cell_power": 0.0,
+        "fine_binned_cell_power": 0.0014812592774575823,
+        "dQ_dr_256": 0.0,
+        "dQ_dr_512_binned": 0.04740029687864263,
+        "power_difference": 0.0014812592774575823,
+        "fraction_of_net_jump": 0.37001804276510264
+      },
+      {
+        "coarse_cell": 33,
+        "r": 1.046875,
+        "coarse_cell_power": 0.0006266668278623792,
+        "fine_binned_cell_power": 5.062200027722674e-06,
+        "dQ_dr_256": 0.020053338491596136,
+        "dQ_dr_512_binned": 0.00016199040088712556,
+        "power_difference": -0.0006216046278346565,
+        "fraction_of_net_jump": -0.15527661582642552
+      },
+      {
+        "coarse_cell": 34,
+        "r": 1.078125,
+        "coarse_cell_power": 0.0005691653583334733,
+        "fine_binned_cell_power": 1.6312911529152264e-07,
+        "dQ_dr_256": 0.018213291466671146,
+        "dQ_dr_512_binned": 5.2201316893287245e-06,
+        "power_difference": -0.0005690022292181817,
+        "fraction_of_net_jump": -0.14213655528670335
+      },
+      {
+        "coarse_cell": 14,
+        "r": 0.453125,
+        "coarse_cell_power": 3.264738064800836e-11,
+        "fine_binned_cell_power": 0.00042708731027249404,
+        "dQ_dr_256": 1.0447161807362675e-09,
+        "dQ_dr_512_binned": 0.01366679392871981,
+        "power_difference": 0.00042708727762511337,
+        "fraction_of_net_jump": 0.10668625065286443
+      },
+      {
+        "coarse_cell": 19,
+        "r": 0.609375,
+        "coarse_cell_power": 9.518216457219006e-08,
+        "fine_binned_cell_power": 0.0003297006756419743,
+        "dQ_dr_256": 3.045829266310082e-06,
+        "dQ_dr_512_binned": 0.010550421620543178,
+        "power_difference": 0.00032960549347740213,
+        "fraction_of_net_jump": 0.08233533550619508
+      },
+      {
+        "coarse_cell": 22,
+        "r": 0.703125,
+        "coarse_cell_power": 1.1585056938959825e-05,
+        "fine_binned_cell_power": 0.00021010354575143835,
+        "dQ_dr_256": 0.0003707218220467144,
+        "dQ_dr_512_binned": 0.006723313464046027,
+        "power_difference": 0.00019851848881247852,
+        "fraction_of_net_jump": 0.0495898481791502
+      },
+      {
+        "coarse_cell": 36,
+        "r": 1.140625,
+        "coarse_cell_power": 2.9050004398677563e-11,
+        "fine_binned_cell_power": 0.00010790152071982289,
+        "dQ_dr_256": 9.29600140757682e-10,
+        "dQ_dr_512_binned": 0.0034528486630343324,
+        "power_difference": 0.00010790149166981849,
+        "fraction_of_net_jump": 0.02695375439445616
+      },
+      {
+        "coarse_cell": 31,
+        "r": 0.984375,
+        "coarse_cell_power": 1.6620248126779583e-08,
+        "fine_binned_cell_power": 0.00010141299650427383,
+        "dQ_dr_256": 5.318479400569466e-07,
+        "dQ_dr_512_binned": 0.0032452158881367626,
+        "power_difference": 0.00010139637625614705,
+        "fraction_of_net_jump": 0.025328778868591997
+      },
+      {
+        "coarse_cell": 23,
+        "r": 0.734375,
+        "coarse_cell_power": 9.6487763658853e-06,
+        "fine_binned_cell_power": 0.00010599562726991345,
+        "dQ_dr_256": 0.0003087608437083296,
+        "dQ_dr_512_binned": 0.0033918600726372304,
+        "power_difference": 9.634685090402815e-05,
+        "fraction_of_net_jump": 0.024067409224453308
+      }
+    ],
+    "regions": [
+      {
+        "r_min": 0,
+        "r_max": 1.75,
+        "power_256": 0.0014415574165568034,
+        "power_512": 0.005436509242499577,
+        "difference": 0.0039949518259427734,
+        "fraction_of_net_jump": 0.9979375508880471
+      },
+      {
+        "r_min": 1.75,
+        "r_max": 2.5,
+        "power_256": 2.412268792906083e-07,
+        "power_512": 1.0802762862028297e-06,
+        "difference": 8.390494069122215e-07,
+        "fraction_of_net_jump": 0.00020959424460905755
+      },
+      {
+        "r_min": 2.5,
+        "r_max": 3,
+        "power_256": 2.992657625873811e-08,
+        "power_512": 6.326743359780964e-06,
+        "difference": 6.2968167835222255e-06,
+        "fraction_of_net_jump": 0.0015729426018437635
+      },
+      {
+        "r_min": 3,
+        "r_max": 8,
+        "power_256": 6.004333184309527e-05,
+        "power_512": 6.116387893060405e-05,
+        "difference": 1.1205470875087821e-06,
+        "fraction_of_net_jump": 0.00027991226550006133
+      }
+    ],
+    "core_band": {
+      "reference_coordinate_min": 2.0720754447392817,
+      "reference_coordinate_max": 2.5723877217446427,
+      "selection": "whole coarse parent cells with centers in the union of the two core +/-0.25 bands",
+      "power_256": 1.373481976070351e-07,
+      "power_512": 9.686741327217865e-09,
+      "fraction_of_net_jump": -3.188978655396363e-05
+    },
+    "common_omega_readout_records": [
+      {
+        "cells": 256,
+        "time": 90,
+        "state_kind": "archived_evolved_checkpoint",
+        "active_exchange_strength": 0.04080087121508541,
+        "heat_power": 0.0015018719019555611,
+        "core": {
+          "exists": true,
+          "coordinate_radius": 2.3220754447392817,
+          "areal_radius": 2.3234391131170153,
+          "areal_radius_rate": -0.0005489673899989956,
+          "volume_radius": 2.3015808359451584,
+          "total_content": 50.843454515362055,
+          "signed_content": 2.376621294802174,
+          "coordinate_radius_rate": -4.512388024242946e-06,
+          "moving_total_budget_error": 1.2043749718772083e-20,
+          "moving_signed_budget_error": 1.852884572118782e-22,
+          "total_rate": -0.00030637434993289656,
+          "signed_rate": -0.000129500966251509,
+          "boundary_motion_term": -0.0003062040271202586,
+          "scope": "Fractional shell-cell definition with exact discrete weight derivative; not a continuum moving-surface qualification"
+        },
+        "heat_identity_abs_error": 1.0587911840678754e-22,
+        "fixed_omega_readout_only": true
+      },
+      {
+        "cells": 512,
+        "time": 90,
+        "state_kind": "archived_evolved_checkpoint",
+        "active_exchange_strength": 0.04080087121508541,
+        "heat_power": 0.0055050801410761645,
+        "core": {
+          "exists": true,
+          "coordinate_radius": 2.3223877217446427,
+          "areal_radius": 2.323565676530776,
+          "areal_radius_rate": -0.009613469485783071,
+          "volume_radius": 2.3029625437767702,
+          "total_content": 50.94459401011702,
+          "signed_content": 2.3031643833842588,
+          "coordinate_radius_rate": 1.6900665269626132e-05,
+          "moving_total_budget_error": 9.423241538204091e-21,
+          "moving_signed_budget_error": 3.680953725860973e-21,
+          "total_rate": 0.0011452496280757267,
+          "signed_rate": 2.3058101483491005e-05,
+          "boundary_motion_term": 0.0011452494922639428,
+          "scope": "Fractional shell-cell definition with exact discrete weight derivative; not a continuum moving-surface qualification"
+        },
+        "heat_identity_abs_error": 4.235164736271502e-22,
+        "fixed_omega_readout_only": true
+      }
+    ],
+    "common_omega_readout_ratio": 3.665479148992731,
+    "high_wavenumber_wave_mechanism_proved": false
+  },
+  "runtime_seconds": 0.8756346849986585,
+  "no_kappa_grid_rescaling_applied": true,
+  "original_source_and_states_changed": false
+}
