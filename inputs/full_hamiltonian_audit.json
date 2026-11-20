@@ -1,0 +1,62 @@
+[
+  {
+    "cells": 256,
+    "time": 90,
+    "outer_radius": 8,
+    "active_exchange_strength": 0.040797055779828346,
+    "energy_abs_error": 4.336808689942018e-19,
+    "full_gradient_max_abs_error": 4.874551385095332e-12,
+    "local_continuity_max_abs_error": 1.3552527156068805e-20,
+    "total_content_rate_abs_error": 3.6422416731934915e-20,
+    "canonical_power_abs_error": 3.3881317890172014e-21,
+    "moving_core_balance_abs_error": 4.129285617864714e-21,
+    "compiled_rhs_relative_error": 7.207548005330829e-14,
+    "kappa_100_heat_power": 0.0015018719018554476,
+    "heated_power_balance_abs_error": 2.3555550041174256e-15
+  },
+  {
+    "cells": 256,
+    "time": 500,
+    "outer_radius": 8,
+    "active_exchange_strength": 0.040797055779828346,
+    "energy_abs_error": 0.0,
+    "full_gradient_max_abs_error": 4.421479024921404e-12,
+    "local_continuity_max_abs_error": 1.3552527156068805e-20,
+    "total_content_rate_abs_error": 1.2043749718772083e-21,
+    "canonical_power_abs_error": 0.0,
+    "moving_core_balance_abs_error": 2.752857078576476e-21,
+    "compiled_rhs_relative_error": 3.295147058286703e-14,
+    "kappa_100_heat_power": 9.023417460306244e-05,
+    "heated_power_balance_abs_error": 8.341762576644009e-16
+  },
+  {
+    "cells": 512,
+    "time": 90,
+    "outer_radius": 8,
+    "active_exchange_strength": 0.04080087121508541,
+    "energy_abs_error": 0.0,
+    "full_gradient_max_abs_error": 5.7495034293697945e-12,
+    "local_continuity_max_abs_error": 6.776263578034401e-21,
+    "total_content_rate_abs_error": 3.414601568618898e-20,
+    "canonical_power_abs_error": 0.0,
+    "moving_core_balance_abs_error": 3.5419873829520645e-21,
+    "compiled_rhs_relative_error": 4.429206074907839e-14,
+    "kappa_100_heat_power": 0.005505080141076166,
+    "heated_power_balance_abs_error": 2.1388293425846777e-15
+  },
+  {
+    "cells": 512,
+    "time": 200,
+    "outer_radius": 8,
+    "active_exchange_strength": 0.04080087121508541,
+    "energy_abs_error": 4.336808689942018e-19,
+    "full_gradient_max_abs_error": 5.2581081307588595e-12,
+    "local_continuity_max_abs_error": 6.55447398208301e-21,
+    "total_content_rate_abs_error": 4.326485475897356e-20,
+    "canonical_power_abs_error": 6.776263578034403e-21,
+    "moving_core_balance_abs_error": 8.470329472543003e-22,
+    "compiled_rhs_relative_error": 1.7867647069641273e-14,
+    "kappa_100_heat_power": 0.00014749918469338428,
+    "heated_power_balance_abs_error": 3.084690705992821e-15
+  }
+]
