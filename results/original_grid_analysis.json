@@ -1,0 +1,231 @@
+{
+  "groups": [
+    {
+      "time": 90,
+      "outer_radius": 8,
+      "grids": [
+        256,
+        512
+      ],
+      "fixed_exchange_coefficient": false,
+      "comparison_protocol_verified": false,
+      "comparability_user_asserted": false,
+      "metrics": {
+        "active_exchange_strength": {
+          "kind": "grid_dependent_calibration",
+          "grids": [
+            256,
+            512
+          ],
+          "values": [
+            0.040797055779828346,
+            0.04080087121508541
+          ],
+          "triplets": [],
+          "first_difference": 3.815435257063793e-06,
+          "ratio": 1.0000935223188079,
+          "status": "insufficient_grids_for_unknown_order",
+          "p": null,
+          "q_infinity": null,
+          "interpretation": "Calibration-sequence diagnostic, not solution convergence at a frozen Hamiltonian parameter."
+        },
+        "kappa_100_heat_power": {
+          "kind": "physical_model_observable_in_native_units",
+          "grids": [
+            256,
+            512
+          ],
+          "values": [
+            0.0015018719018554476,
+            0.005505080141076166
+          ],
+          "triplets": [],
+          "first_difference": 0.004003208239220719,
+          "ratio": 3.6654791492370697,
+          "status": "insufficient_grids_for_unknown_order",
+          "p": null,
+          "q_infinity": null
+        },
+        "full_gradient_max_abs_error": {
+          "kind": "verification_residual",
+          "grids": [
+            256,
+            512
+          ],
+          "values": [
+            4.874551385095332e-12,
+            5.7495034293697945e-12
+          ],
+          "triplets": [],
+          "first_difference": 8.749520442744626e-13,
+          "ratio": 1.179493860081106,
+          "status": "not_a_spatial_truncation_error_estimate",
+          "p": null,
+          "q_infinity": null,
+          "reason": "Residuals depend on epsilon, arithmetic, normalization and test method; sweep epsilon separately."
+        },
+        "compiled_rhs_relative_error": {
+          "kind": "verification_residual",
+          "grids": [
+            256,
+            512
+          ],
+          "values": [
+            7.207548005330829e-14,
+            4.429206074907839e-14
+          ],
+          "triplets": [],
+          "first_difference": -2.77834193042299e-14,
+          "ratio": 0.6145232847054117,
+          "status": "not_a_spatial_truncation_error_estimate",
+          "p": null,
+          "q_infinity": null,
+          "reason": "Residuals depend on epsilon, arithmetic, normalization and test method; sweep epsilon separately."
+        }
+      },
+      "warning": "The exchange coefficient varies across grids. A third value alone will not isolate spatial truncation error at a fixed coefficient."
+    },
+    {
+      "time": 200,
+      "outer_radius": 8,
+      "grids": [
+        512
+      ],
+      "fixed_exchange_coefficient": true,
+      "comparison_protocol_verified": false,
+      "comparability_user_asserted": false,
+      "metrics": {
+        "active_exchange_strength": {
+          "kind": "grid_dependent_calibration",
+          "grids": [
+            512
+          ],
+          "values": [
+            0.04080087121508541
+          ],
+          "triplets": [],
+          "status": "insufficient_grids_for_unknown_order",
+          "p": null,
+          "q_infinity": null,
+          "interpretation": "Calibration-sequence diagnostic, not solution convergence at a frozen Hamiltonian parameter."
+        },
+        "kappa_100_heat_power": {
+          "kind": "physical_model_observable_in_native_units",
+          "grids": [
+            512
+          ],
+          "values": [
+            0.00014749918469338428
+          ],
+          "triplets": [],
+          "status": "insufficient_grids_for_unknown_order",
+          "p": null,
+          "q_infinity": null
+        },
+        "full_gradient_max_abs_error": {
+          "kind": "verification_residual",
+          "grids": [
+            512
+          ],
+          "values": [
+            5.2581081307588595e-12
+          ],
+          "triplets": [],
+          "status": "not_a_spatial_truncation_error_estimate",
+          "p": null,
+          "q_infinity": null,
+          "reason": "Residuals depend on epsilon, arithmetic, normalization and test method; sweep epsilon separately."
+        },
+        "compiled_rhs_relative_error": {
+          "kind": "verification_residual",
+          "grids": [
+            512
+          ],
+          "values": [
+            1.7867647069641273e-14
+          ],
+          "triplets": [],
+          "status": "not_a_spatial_truncation_error_estimate",
+          "p": null,
+          "q_infinity": null,
+          "reason": "Residuals depend on epsilon, arithmetic, normalization and test method; sweep epsilon separately."
+        }
+      }
+    },
+    {
+      "time": 500,
+      "outer_radius": 8,
+      "grids": [
+        256
+      ],
+      "fixed_exchange_coefficient": true,
+      "comparison_protocol_verified": false,
+      "comparability_user_asserted": false,
+      "metrics": {
+        "active_exchange_strength": {
+          "kind": "grid_dependent_calibration",
+          "grids": [
+            256
+          ],
+          "values": [
+            0.040797055779828346
+          ],
+          "triplets": [],
+          "status": "insufficient_grids_for_unknown_order",
+          "p": null,
+          "q_infinity": null,
+          "interpretation": "Calibration-sequence diagnostic, not solution convergence at a frozen Hamiltonian parameter."
+        },
+        "kappa_100_heat_power": {
+          "kind": "physical_model_observable_in_native_units",
+          "grids": [
+            256
+          ],
+          "values": [
+            9.023417460306244e-05
+          ],
+          "triplets": [],
+          "status": "insufficient_grids_for_unknown_order",
+          "p": null,
+          "q_infinity": null
+        },
+        "full_gradient_max_abs_error": {
+          "kind": "verification_residual",
+          "grids": [
+            256
+          ],
+          "values": [
+            4.421479024921404e-12
+          ],
+          "triplets": [],
+          "status": "not_a_spatial_truncation_error_estimate",
+          "p": null,
+          "q_infinity": null,
+          "reason": "Residuals depend on epsilon, arithmetic, normalization and test method; sweep epsilon separately."
+        },
+        "compiled_rhs_relative_error": {
+          "kind": "verification_residual",
+          "grids": [
+            256
+          ],
+          "values": [
+            3.295147058286703e-14
+          ],
+          "triplets": [],
+          "status": "not_a_spatial_truncation_error_estimate",
+          "p": null,
+          "q_infinity": null,
+          "reason": "Residuals depend on epsilon, arithmetic, normalization and test method; sweep epsilon separately."
+        }
+      }
+    }
+  ],
+  "fd_step_optimality_inferred_from_grid_data": false,
+  "requirements": [
+    "matched continuum initial data and preparation",
+    "fixed continuum parameter and cap rules",
+    "controlled temporal error",
+    "consistent observable and boundary treatment",
+    "evidence of the asymptotic refinement regime"
+  ]
+}

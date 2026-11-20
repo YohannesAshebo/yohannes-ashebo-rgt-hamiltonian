@@ -1,0 +1,81 @@
+{
+  "groups": [
+    {
+      "time": 90,
+      "outer_radius": 8.0,
+      "grids": [
+        256,
+        512
+      ],
+      "fixed_exchange_coefficient": false,
+      "comparison_protocol_verified": false,
+      "comparability_user_asserted": false,
+      "metrics": {
+        "active_exchange_strength": {
+          "kind": "grid_dependent_calibration",
+          "grids": [
+            256,
+            512
+          ],
+          "values": [
+            0.040797055779828346,
+            0.04080087121508541
+          ],
+          "triplets": [],
+          "first_difference": 3.815435257063793e-06,
+          "ratio": 1.0000935223188079,
+          "status": "insufficient_grids_for_unknown_order",
+          "p": null,
+          "q_infinity": null,
+          "interpretation": "Calibration-sequence diagnostic, not solution convergence at a frozen Hamiltonian parameter."
+        },
+        "kappa_100_heat_power": {
+          "kind": "physical_model_observable_in_native_units",
+          "grids": [
+            256,
+            512
+          ],
+          "values": [
+            0.001501871901855448,
+            0.0055050801410761645
+          ],
+          "triplets": [],
+          "first_difference": 0.0040032082392207164,
+          "ratio": 3.6654791492370675,
+          "status": "insufficient_grids_for_unknown_order",
+          "p": null,
+          "q_infinity": null
+        },
+        "full_gradient_max_abs_error": {
+          "kind": "verification_residual",
+          "grids": [],
+          "values": [],
+          "triplets": [],
+          "status": "not_a_spatial_truncation_error_estimate",
+          "p": null,
+          "q_infinity": null,
+          "reason": "Residuals depend on epsilon, arithmetic, normalization and test method; sweep epsilon separately."
+        },
+        "compiled_rhs_relative_error": {
+          "kind": "verification_residual",
+          "grids": [],
+          "values": [],
+          "triplets": [],
+          "status": "not_a_spatial_truncation_error_estimate",
+          "p": null,
+          "q_infinity": null,
+          "reason": "Residuals depend on epsilon, arithmetic, normalization and test method; sweep epsilon separately."
+        }
+      },
+      "warning": "The exchange coefficient varies across grids. A third value alone will not isolate spatial truncation error at a fixed coefficient."
+    }
+  ],
+  "fd_step_optimality_inferred_from_grid_data": false,
+  "requirements": [
+    "matched continuum initial data and preparation",
+    "fixed continuum parameter and cap rules",
+    "controlled temporal error",
+    "consistent observable and boundary treatment",
+    "evidence of the asymptotic refinement regime"
+  ]
+}
