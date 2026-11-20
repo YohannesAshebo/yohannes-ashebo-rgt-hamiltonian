@@ -3,6 +3,7 @@ message: "If you use this reference solver or audit in research, please cite thi
 type: software
 title: "Ashebo RGT Hamiltonian Reference Solver and Numerical Audit"
 version: 0.1.0
+doi: "10.5281/zenodo.24407743"
 date-released: "2026-11-20"
 license: Apache-2.0
 authors:
