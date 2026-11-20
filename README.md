@@ -2,6 +2,8 @@
 
 **Yohannes Beyene Ashebo · Ashebophysics · Version 0.1.0 · Apache 2.0**
 
+**Archived v0.1.0:** [Zenodo · DOI 10.5281/zenodo.24407743](https://zenodo.org/records/24407743)
+
 An open-source research reference for the radial Relational Gap Theory
 Hamiltonian and its current-dependent counterflow extension. The release
 includes the original Python/C implementation, saved field states, and an
@@ -120,9 +122,14 @@ condition is imposed.
 Please cite:
 
 > Ashebo, Yohannes Beyene. (2026). *Ashebo RGT Hamiltonian Reference Solver and
-> Numerical Audit* (Version 0.1.0). Ashebophysics.
+> Numerical Audit* (Version 0.1.0) [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.24407743
 
-`CITATION.cff` supplies machine-readable attribution. Source repository: https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian. No DOI has been assigned.
+`CITATION.cff` supplies machine-readable attribution, including the version-specific DOI.
+The [Zenodo archive](https://zenodo.org/records/24407743) preserves the original
+v0.1.0 source snapshot; subsequent citation-metadata edits on the default branch
+do not alter that archived snapshot.
+Source repository: https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian.
 
 ## Development and contributions
 
