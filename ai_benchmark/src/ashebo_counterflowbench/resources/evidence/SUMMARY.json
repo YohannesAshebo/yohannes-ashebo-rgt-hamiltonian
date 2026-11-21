@@ -1,0 +1,174 @@
+{
+  "native_reference": {
+    "trajectories": 50,
+    "saved_states": 1050,
+    "cells": 128,
+    "time_range": [
+      0,
+      10
+    ],
+    "unique_training_initial_states": 8,
+    "unique_validation_initial_states": 2,
+    "unique_test_initial_states": 4,
+    "test_conditions": 20,
+    "maximum_energy_heat_relative_error": 3.470217685723784e-15,
+    "maximum_content_relative_error": 1.6802447286444662e-15,
+    "time_controls": [
+      {
+        "seed": 0,
+        "kappa": 100,
+        "maximum_scaled_state_difference": 1.205504596146767e-08,
+        "pass_gate": true,
+        "reference": {
+          "completed": true,
+          "final_time": 10.0,
+          "saved_states": 21,
+          "accepted_steps": 4034,
+          "RHS_evaluations": 49310,
+          "seconds": 7.605671786004677,
+          "maximum_step": 0.0025,
+          "max_energy_error": 1.517703112314388e-15,
+          "max_content_error": 5.869570114691133e-16,
+          "failure": null
+        }
+      },
+      {
+        "seed": 12,
+        "kappa": 500,
+        "maximum_scaled_state_difference": 4.031253497682741e-09,
+        "pass_gate": true,
+        "reference": {
+          "completed": true,
+          "final_time": 10.0,
+          "saved_states": 21,
+          "accepted_steps": 4072,
+          "RHS_evaluations": 50642,
+          "seconds": 7.640710054001829,
+          "maximum_step": 0.0025,
+          "max_energy_error": 1.5736471308013247e-15,
+          "max_content_error": 1.1287358296014005e-15,
+          "failure": null
+        }
+      }
+    ],
+    "independent_gradient_max_scaled_error": 5.892638807458717e-16
+  },
+  "long_trained_native_H_hybrid": {
+    "operator_cases": 20,
+    "rollouts": 4,
+    "completed_rollouts": 4,
+    "unit_phase_rate_relative_L2_range": [
+      0.06584923103353685,
+      0.08829181678627962
+    ],
+    "instantaneous_total_heat_relative_L2_range": [
+      0.06925003072996028,
+      0.19638984731599887
+    ],
+    "final_accumulated_heat_relative_error_range": [
+      0.0009467746748863176,
+      0.005088555950661529
+    ],
+    "normalized_feature_error_over_persistence_range": [
+      0.0002513329614579958,
+      0.0016049658896808835
+    ],
+    "maximum_native_H_plus_heat_relative_drift": 2.188606598210698e-12,
+    "maximum_content_relative_drift": 1.7808072308193708e-14,
+    "maximum_instantaneous_power_residual": 6.938893903907228e-18,
+    "time_controls": [
+      {
+        "seed_group": 12,
+        "kappa": 500,
+        "both_complete": true,
+        "max_scaled_state_difference": 2.342099827598571e-09
+      }
+    ],
+    "gauge_rate_max_abs_difference": 5.421010862427522e-20,
+    "phase_pair_antisymmetry": 0.0,
+    "inference": "A useful supervised dissipative surrogate with known exact mechanics, limited to the checked synthetic family. Not full-H discovery or measured physical validation."
+  },
+  "learned_entire_flow": {
+    "models": 3,
+    "operator_cases": 60,
+    "RK4_rollouts": 60,
+    "completed_RK4_rollouts": 0,
+    "conservative_relative_L2_by_model": {
+      "direct_DCT": [
+        0.0792542195987278,
+        0.09028062637220728
+      ],
+      "generic_raw_phases": [
+        0.9997555140431835,
+        0.9997610155405642
+      ],
+      "generic_U1": [
+        1.000286454869768,
+        1.0002993095012982
+      ]
+    },
+    "adaptive_diagnostics": [
+      {
+        "kind": "direct_DCT",
+        "seed_group": 12,
+        "kappa": 100,
+        "completed": false,
+        "last_time": 0.0029220396223650076,
+        "failure": {
+          "type": "FloatingPointError",
+          "message": "Learned state left the declared finite chart budget"
+        },
+        "RHS_calls": 370,
+        "seconds": 0.6916724280017661,
+        "native_H_finite": true,
+        "native_H_plus_heat_relative_drift": 2.3334464604889287e+114,
+        "content_relative_drift": 5.111554963412765e+25,
+        "inference": "A computation budget exhaustion leaves adaptive long-horizon stability unresolved; it is not proof of mathematical divergence. Held-out operator accuracy is graded separately."
+      },
+      {
+        "kind": "generic_raw_phases",
+        "seed_group": 12,
+        "kappa": 100,
+        "completed": false,
+        "last_time": 1.7676861541579938,
+        "failure": {
+          "type": "FloatingPointError",
+          "message": "Learned state left the declared finite chart budget"
+        },
+        "RHS_calls": 4478,
+        "seconds": 12.822583805995237,
+        "native_H_finite": true,
+        "native_H_plus_heat_relative_drift": 0.11415182832054582,
+        "content_relative_drift": 1.1240188347922419e-05,
+        "inference": "A computation budget exhaustion leaves adaptive long-horizon stability unresolved; it is not proof of mathematical divergence. Held-out operator accuracy is graded separately."
+      },
+      {
+        "kind": "generic_U1",
+        "seed_group": 12,
+        "kappa": 100,
+        "completed": false,
+        "last_time": 1.3917759638410938,
+        "failure": {
+          "type": "FloatingPointError",
+          "message": "Learned state left the declared finite chart budget"
+        },
+        "RHS_calls": 3830,
+        "seconds": 10.350900915997045,
+        "native_H_finite": true,
+        "native_H_plus_heat_relative_drift": 0.08300737205599461,
+        "content_relative_drift": 3.5502762135397704e-15,
+        "inference": "A computation budget exhaustion leaves adaptive long-horizon stability unresolved; it is not proof of mathematical divergence. Held-out operator accuracy is graded separately."
+      }
+    ],
+    "inference": "These frozen replacements do not pass the present accuracy/rollout checks. This is a result about these trained approximations and budgets, not disproof of the original Hamiltonian."
+  },
+  "source": {
+    "original_files_unchanged": 94,
+    "previous_checkpoints_unchanged": 6,
+    "new_checkpoints_hash_checked": 4
+  },
+  "physical_measurements_used": false,
+  "spatial_continuum_validation": false,
+  "public_upload": false,
+  "original_equations_modified": false
+}

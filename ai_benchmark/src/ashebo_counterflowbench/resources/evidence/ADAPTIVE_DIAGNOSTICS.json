@@ -1,0 +1,53 @@
+[
+  {
+    "kind": "direct_DCT",
+    "seed_group": 12,
+    "kappa": 100,
+    "completed": false,
+    "last_time": 0.0029220396223650076,
+    "failure": {
+      "type": "FloatingPointError",
+      "message": "Learned state left the declared finite chart budget"
+    },
+    "RHS_calls": 370,
+    "seconds": 0.6916724280017661,
+    "native_H_finite": true,
+    "native_H_plus_heat_relative_drift": 2.3334464604889287e+114,
+    "content_relative_drift": 5.111554963412765e+25,
+    "inference": "A computation budget exhaustion leaves adaptive long-horizon stability unresolved; it is not proof of mathematical divergence. Held-out operator accuracy is graded separately."
+  },
+  {
+    "kind": "generic_raw_phases",
+    "seed_group": 12,
+    "kappa": 100,
+    "completed": false,
+    "last_time": 1.7676861541579938,
+    "failure": {
+      "type": "FloatingPointError",
+      "message": "Learned state left the declared finite chart budget"
+    },
+    "RHS_calls": 4478,
+    "seconds": 12.822583805995237,
+    "native_H_finite": true,
+    "native_H_plus_heat_relative_drift": 0.11415182832054582,
+    "content_relative_drift": 1.1240188347922419e-05,
+    "inference": "A computation budget exhaustion leaves adaptive long-horizon stability unresolved; it is not proof of mathematical divergence. Held-out operator accuracy is graded separately."
+  },
+  {
+    "kind": "generic_U1",
+    "seed_group": 12,
+    "kappa": 100,
+    "completed": false,
+    "last_time": 1.3917759638410938,
+    "failure": {
+      "type": "FloatingPointError",
+      "message": "Learned state left the declared finite chart budget"
+    },
+    "RHS_calls": 3830,
+    "seconds": 10.350900915997045,
+    "native_H_finite": true,
+    "native_H_plus_heat_relative_drift": 0.08300737205599461,
+    "content_relative_drift": 3.5502762135397704e-15,
+    "inference": "A computation budget exhaustion leaves adaptive long-horizon stability unresolved; it is not proof of mathematical divergence. Held-out operator accuracy is graded separately."
+  }
+]

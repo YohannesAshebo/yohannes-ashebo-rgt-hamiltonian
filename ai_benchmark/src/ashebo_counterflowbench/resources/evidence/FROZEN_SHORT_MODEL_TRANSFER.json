@@ -1,0 +1,2096 @@
+{
+  "models": [
+    {
+      "model": "structured_seed11.pt",
+      "sha256": "beac54e08a485e40c9bdd56c30d15c4215a8ded878be9b9c979a3402b3a1e855",
+      "kind": "structured",
+      "seed": 11,
+      "cases": [
+        {
+          "seed_group": 12,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12654.31820218317,
+            "unit_heat_cells_relative_L2": 14093.34565112061,
+            "unit_total_heat_relative_L2": 12331.841291147428,
+            "unit_power_residual_max_abs": 8.673617379884035e-19,
+            "unit_power_residual_relative_to_true_heat": 4.171292496671294e-14,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12496.87965138117,
+            "unit_heat_cells_relative_L2": 14029.000837493957,
+            "unit_total_heat_relative_L2": 12245.49353567583,
+            "unit_power_residual_max_abs": 3.3881317890172014e-21,
+            "unit_power_residual_relative_to_true_heat": 6.735542010269929e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11839.56949177431,
+            "unit_heat_cells_relative_L2": 13725.733981065046,
+            "unit_total_heat_relative_L2": 11833.33397338455,
+            "unit_power_residual_max_abs": 4.336808689942018e-19,
+            "unit_power_residual_relative_to_true_heat": 2.2271906151533143e-14,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11026.193138034629,
+            "unit_heat_cells_relative_L2": 13296.609375606398,
+            "unit_total_heat_relative_L2": 11202.945324869008,
+            "unit_power_residual_max_abs": 4.336808689942018e-19,
+            "unit_power_residual_relative_to_true_heat": 2.0534988583977597e-14,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 6103.670604588954,
+            "unit_heat_cells_relative_L2": 5938.113210731168,
+            "unit_total_heat_relative_L2": 4440.68729762181,
+            "unit_power_residual_max_abs": 2.168404344971009e-19,
+            "unit_power_residual_relative_to_true_heat": 2.5480912573158637e-14,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 9240.560302867882,
+            "unit_heat_cells_relative_L2": 7089.497117178774,
+            "unit_total_heat_relative_L2": 6410.18572683887,
+            "unit_power_residual_max_abs": 4.336808689942018e-19,
+            "unit_power_residual_relative_to_true_heat": 3.739325747069445e-14,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 9243.026804266208,
+            "unit_heat_cells_relative_L2": 7090.531972573123,
+            "unit_total_heat_relative_L2": 6418.852553939557,
+            "unit_power_residual_max_abs": 1.1102230246251565e-16,
+            "unit_power_residual_relative_to_true_heat": 5.89192323332438e-12,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 9220.792417074696,
+            "unit_heat_cells_relative_L2": 6993.2666582816255,
+            "unit_total_heat_relative_L2": 6341.52983929192,
+            "unit_power_residual_max_abs": 4.336808689942018e-19,
+            "unit_power_residual_relative_to_true_heat": 3.8686195938583374e-14,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 9136.414228012485,
+            "unit_heat_cells_relative_L2": 6751.212455810251,
+            "unit_total_heat_relative_L2": 6090.741815206654,
+            "unit_power_residual_max_abs": 4.336808689942018e-19,
+            "unit_power_residual_relative_to_true_heat": 1.8275017911069293e-14,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 7921.811874546776,
+            "unit_heat_cells_relative_L2": 7451.506164825512,
+            "unit_total_heat_relative_L2": 4968.726715691847,
+            "unit_power_residual_max_abs": 5.551115123125783e-17,
+            "unit_power_residual_relative_to_true_heat": 9.32432306431301e-12,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11631.786242318041,
+            "unit_heat_cells_relative_L2": 12268.531383945901,
+            "unit_total_heat_relative_L2": 12173.066243741363,
+            "unit_power_residual_max_abs": 2.220446049250313e-16,
+            "unit_power_residual_relative_to_true_heat": 2.0791628695541487e-11,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11730.74800116736,
+            "unit_heat_cells_relative_L2": 12641.368899296132,
+            "unit_total_heat_relative_L2": 12509.410424843987,
+            "unit_power_residual_max_abs": 2.220446049250313e-16,
+            "unit_power_residual_relative_to_true_heat": 2.168725454061765e-11,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12180.804900895413,
+            "unit_heat_cells_relative_L2": 14377.118199294644,
+            "unit_total_heat_relative_L2": 14003.346921136834,
+            "unit_power_residual_max_abs": 3.469446951953614e-18,
+            "unit_power_residual_relative_to_true_heat": 1.6838449926809678e-13,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12738.849105757547,
+            "unit_heat_cells_relative_L2": 16886.355469461007,
+            "unit_total_heat_relative_L2": 16012.70023522697,
+            "unit_power_residual_max_abs": 2.710505431213761e-20,
+            "unit_power_residual_relative_to_true_heat": 1.7933755701585137e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 9211.57175539333,
+            "unit_heat_cells_relative_L2": 17717.01295505399,
+            "unit_total_heat_relative_L2": 13416.880567051736,
+            "unit_power_residual_max_abs": 1.1102230246251565e-16,
+            "unit_power_residual_relative_to_true_heat": 2.2979775388522007e-11,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 13924.981941400121,
+            "unit_heat_cells_relative_L2": 11079.163568636588,
+            "unit_total_heat_relative_L2": 9324.99065487771,
+            "unit_power_residual_max_abs": 1.1102230246251565e-16,
+            "unit_power_residual_relative_to_true_heat": 1.4034517183296497e-11,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 13901.585270609396,
+            "unit_heat_cells_relative_L2": 10904.497078944298,
+            "unit_total_heat_relative_L2": 9224.51595209491,
+            "unit_power_residual_max_abs": 4.336808689942018e-19,
+            "unit_power_residual_relative_to_true_heat": 2.950253728539135e-14,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 13926.353912896144,
+            "unit_heat_cells_relative_L2": 10282.096920620465,
+            "unit_total_heat_relative_L2": 8864.506653774455,
+            "unit_power_residual_max_abs": 4.336808689942018e-19,
+            "unit_power_residual_relative_to_true_heat": 2.2921029148488562e-14,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 14119.9455476339,
+            "unit_heat_cells_relative_L2": 9839.840215775852,
+            "unit_total_heat_relative_L2": 8583.993689613444,
+            "unit_power_residual_max_abs": 2.710505431213761e-20,
+            "unit_power_residual_relative_to_true_heat": 1.224365998743235e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 18815.131905460465,
+            "unit_heat_cells_relative_L2": 28153.606189179973,
+            "unit_total_heat_relative_L2": 16349.993302998935,
+            "unit_power_residual_max_abs": 2.220446049250313e-16,
+            "unit_power_residual_relative_to_true_heat": 7.109242420328663e-11,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        }
+      ]
+    },
+    {
+      "model": "structured_seed29.pt",
+      "sha256": "d1f095457d1ff77d175e467407485ef260c055f07fe23518845289b1965b57df",
+      "kind": "structured",
+      "seed": 29,
+      "cases": [
+        {
+          "seed_group": 12,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6695152538070535,
+            "unit_heat_cells_relative_L2": 0.9860113813345714,
+            "unit_total_heat_relative_L2": 0.8748418368349654,
+            "unit_power_residual_max_abs": 8.470329472543003e-22,
+            "unit_power_residual_relative_to_true_heat": 1.208764975221951e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6682762940517208,
+            "unit_heat_cells_relative_L2": 0.9857739262675547,
+            "unit_total_heat_relative_L2": 0.8729123560106259,
+            "unit_power_residual_max_abs": 8.470329472543003e-22,
+            "unit_power_residual_relative_to_true_heat": 3.3379493914119816e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6636983573802085,
+            "unit_heat_cells_relative_L2": 0.9847487564984825,
+            "unit_total_heat_relative_L2": 0.8646210709918551,
+            "unit_power_residual_max_abs": 4.235164736271502e-22,
+            "unit_power_residual_relative_to_true_heat": 2.506153161774367e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6589091991130739,
+            "unit_heat_cells_relative_L2": 0.9832142560044712,
+            "unit_total_heat_relative_L2": 0.8532042365519122,
+            "unit_power_residual_max_abs": 1.6940658945086007e-21,
+            "unit_power_residual_relative_to_true_heat": 1.2422105325294716e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6433024728409198,
+            "unit_heat_cells_relative_L2": 0.9656211548141201,
+            "unit_total_heat_relative_L2": 0.7407269356356228,
+            "unit_power_residual_max_abs": 2.117582368135751e-22,
+            "unit_power_residual_relative_to_true_heat": 1.1533263350161233e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6297638312446951,
+            "unit_heat_cells_relative_L2": 0.9834184586119619,
+            "unit_total_heat_relative_L2": 0.8740431389667925,
+            "unit_power_residual_max_abs": 2.117582368135751e-22,
+            "unit_power_residual_relative_to_true_heat": 4.481541718003932e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6284692912552807,
+            "unit_heat_cells_relative_L2": 0.9831839155370243,
+            "unit_total_heat_relative_L2": 0.8723902428795264,
+            "unit_power_residual_max_abs": 1.6940658945086007e-21,
+            "unit_power_residual_relative_to_true_heat": 1.0744268179454621e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6233467810504942,
+            "unit_heat_cells_relative_L2": 0.9822089521974288,
+            "unit_total_heat_relative_L2": 0.8656558708366315,
+            "unit_power_residual_max_abs": 8.470329472543003e-22,
+            "unit_power_residual_relative_to_true_heat": 3.394783352207885e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6170901596707181,
+            "unit_heat_cells_relative_L2": 0.9807856878291535,
+            "unit_total_heat_relative_L2": 0.8563423929091142,
+            "unit_power_residual_max_abs": 2.117582368135751e-22,
+            "unit_power_residual_relative_to_true_heat": 8.923348589389303e-18,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.5868095356798386,
+            "unit_heat_cells_relative_L2": 0.9619270748878539,
+            "unit_total_heat_relative_L2": 0.7551478317339022,
+            "unit_power_residual_max_abs": 5.293955920339377e-23,
+            "unit_power_residual_relative_to_true_heat": 2.077132402059829e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.7262384180113541,
+            "unit_heat_cells_relative_L2": 0.9854291349266053,
+            "unit_total_heat_relative_L2": 0.8564585582799048,
+            "unit_power_residual_max_abs": 8.470329472543003e-22,
+            "unit_power_residual_relative_to_true_heat": 3.5206636913262784e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.7256169819263538,
+            "unit_heat_cells_relative_L2": 0.9850513113667269,
+            "unit_total_heat_relative_L2": 0.8537647291199227,
+            "unit_power_residual_max_abs": 2.117582368135751e-22,
+            "unit_power_residual_relative_to_true_heat": 1.0304546894334257e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.7233096122578941,
+            "unit_heat_cells_relative_L2": 0.983575824967325,
+            "unit_total_heat_relative_L2": 0.8430902395370674,
+            "unit_power_residual_max_abs": 1.0587911840678754e-22,
+            "unit_power_residual_relative_to_true_heat": 5.610387850473168e-18,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.7207285907985953,
+            "unit_heat_cells_relative_L2": 0.9816619978917885,
+            "unit_total_heat_relative_L2": 0.8286685877483868,
+            "unit_power_residual_max_abs": 8.470329472543003e-22,
+            "unit_power_residual_relative_to_true_heat": 5.474555752308342e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6979153149852757,
+            "unit_heat_cells_relative_L2": 0.9588423771310198,
+            "unit_total_heat_relative_L2": 0.6961853265756595,
+            "unit_power_residual_max_abs": 8.470329472543003e-22,
+            "unit_power_residual_relative_to_true_heat": 4.6256661920378184e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6156499317780892,
+            "unit_heat_cells_relative_L2": 0.9797915623700427,
+            "unit_total_heat_relative_L2": 0.8743057856012872,
+            "unit_power_residual_max_abs": 4.235164736271502e-22,
+            "unit_power_residual_relative_to_true_heat": 3.592607442383745e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6147923866704484,
+            "unit_heat_cells_relative_L2": 0.9793900620244951,
+            "unit_total_heat_relative_L2": 0.8722648826931938,
+            "unit_power_residual_max_abs": 2.117582368135751e-22,
+            "unit_power_residual_relative_to_true_heat": 2.836044075620948e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6115669064879542,
+            "unit_heat_cells_relative_L2": 0.9778951207482613,
+            "unit_total_heat_relative_L2": 0.8642939346149913,
+            "unit_power_residual_max_abs": 2.117582368135751e-22,
+            "unit_power_residual_relative_to_true_heat": 3.380994219052468e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.6078792638902072,
+            "unit_heat_cells_relative_L2": 0.976009792415747,
+            "unit_total_heat_relative_L2": 0.8535818218482145,
+            "unit_power_residual_max_abs": 4.235164736271502e-22,
+            "unit_power_residual_relative_to_true_heat": 3.8354896136192143e-17,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 0.5842017437396203,
+            "unit_heat_cells_relative_L2": 0.9507267134661241,
+            "unit_total_heat_relative_L2": 0.7332406839513529,
+            "unit_power_residual_max_abs": 1.0587911840678754e-22,
+            "unit_power_residual_relative_to_true_heat": 7.782860827035533e-18,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        }
+      ]
+    },
+    {
+      "model": "structured_seed47.pt",
+      "sha256": "dfcb102c5dcdc762e4a47d002eb50204b22360d749ccc592b702e05a6ce6cd4e",
+      "kind": "structured",
+      "seed": 47,
+      "cases": [
+        {
+          "seed_group": 12,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.9442035426877506,
+            "unit_heat_cells_relative_L2": 3.5244312435013327,
+            "unit_total_heat_relative_L2": 5.52443108201852,
+            "unit_power_residual_max_abs": 2.710505431213761e-20,
+            "unit_power_residual_relative_to_true_heat": 7.378558218830766e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.940699070169351,
+            "unit_heat_cells_relative_L2": 3.5652469611021176,
+            "unit_total_heat_relative_L2": 5.602407647463901,
+            "unit_power_residual_max_abs": 6.776263578034403e-21,
+            "unit_power_residual_relative_to_true_heat": 7.574912481305405e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.9254296086920837,
+            "unit_heat_cells_relative_L2": 3.7268113189735534,
+            "unit_total_heat_relative_L2": 5.8925569974088186,
+            "unit_power_residual_max_abs": 2.710505431213761e-20,
+            "unit_power_residual_relative_to_true_heat": 1.2824912841007386e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.9031860979038293,
+            "unit_heat_cells_relative_L2": 3.910352050461678,
+            "unit_total_heat_relative_L2": 6.167653435451841,
+            "unit_power_residual_max_abs": 1.3552527156068805e-20,
+            "unit_power_residual_relative_to_true_heat": 1.098314845048687e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.61615296760875,
+            "unit_heat_cells_relative_L2": 3.833000554225824,
+            "unit_total_heat_relative_L2": 5.39949599772218,
+            "unit_power_residual_max_abs": 6.776263578034403e-21,
+            "unit_power_residual_relative_to_true_heat": 7.962785179112074e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.684377996376406,
+            "unit_heat_cells_relative_L2": 3.3343061406276577,
+            "unit_total_heat_relative_L2": 4.848618923536906,
+            "unit_power_residual_max_abs": 1.3552527156068805e-20,
+            "unit_power_residual_relative_to_true_heat": 1.178683813109692e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.677827319503581,
+            "unit_heat_cells_relative_L2": 3.332775939506674,
+            "unit_total_heat_relative_L2": 4.861909487862028,
+            "unit_power_residual_max_abs": 5.421010862427522e-20,
+            "unit_power_residual_relative_to_true_heat": 2.1362221128624704e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.6495183043599333,
+            "unit_heat_cells_relative_L2": 3.309774054712635,
+            "unit_total_heat_relative_L2": 4.889073682632335,
+            "unit_power_residual_max_abs": 2.710505431213761e-20,
+            "unit_power_residual_relative_to_true_heat": 2.417887246161461e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.610567218553024,
+            "unit_heat_cells_relative_L2": 3.261704442060213,
+            "unit_total_heat_relative_L2": 4.872479887591404,
+            "unit_power_residual_max_abs": 1.3552527156068805e-20,
+            "unit_power_residual_relative_to_true_heat": 1.270967596998992e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.3778094503359855,
+            "unit_heat_cells_relative_L2": 3.3516141466236697,
+            "unit_total_heat_relative_L2": 4.40142212138524,
+            "unit_power_residual_max_abs": 3.3881317890172014e-21,
+            "unit_power_residual_relative_to_true_heat": 7.754311313887471e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 3.087107753465378,
+            "unit_heat_cells_relative_L2": 4.211312490212826,
+            "unit_total_heat_relative_L2": 6.580362809128552,
+            "unit_power_residual_max_abs": 2.710505431213761e-20,
+            "unit_power_residual_relative_to_true_heat": 1.0519998034032597e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 3.0790230605131517,
+            "unit_heat_cells_relative_L2": 4.214607005146769,
+            "unit_total_heat_relative_L2": 6.541197924235413,
+            "unit_power_residual_max_abs": 3.3881317890172014e-21,
+            "unit_power_residual_relative_to_true_heat": 6.592856703882614e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 3.047120797232197,
+            "unit_heat_cells_relative_L2": 4.186044517238202,
+            "unit_total_heat_relative_L2": 6.364138933118352,
+            "unit_power_residual_max_abs": 2.710505431213761e-20,
+            "unit_power_residual_relative_to_true_heat": 3.0634368832736218e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 3.010766166774275,
+            "unit_heat_cells_relative_L2": 4.117317884715492,
+            "unit_total_heat_relative_L2": 6.166359694819511,
+            "unit_power_residual_max_abs": 5.421010862427522e-20,
+            "unit_power_residual_relative_to_true_heat": 2.347164188792128e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.719985128009159,
+            "unit_heat_cells_relative_L2": 4.363666881258818,
+            "unit_total_heat_relative_L2": 5.692960873364121,
+            "unit_power_residual_max_abs": 2.710505431213761e-20,
+            "unit_power_residual_relative_to_true_heat": 2.8051483628566903e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.713800838188074,
+            "unit_heat_cells_relative_L2": 3.822326422403411,
+            "unit_total_heat_relative_L2": 5.672282606350055,
+            "unit_power_residual_max_abs": 5.421010862427522e-20,
+            "unit_power_residual_relative_to_true_heat": 2.288615372189716e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.7048249108623876,
+            "unit_heat_cells_relative_L2": 3.8256372911797585,
+            "unit_total_heat_relative_L2": 5.667895727995686,
+            "unit_power_residual_max_abs": 2.710505431213761e-20,
+            "unit_power_residual_relative_to_true_heat": 1.3357425577331727e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.6686377133461114,
+            "unit_heat_cells_relative_L2": 3.800712279691131,
+            "unit_total_heat_relative_L2": 5.6085068567559935,
+            "unit_power_residual_max_abs": 5.421010862427522e-20,
+            "unit_power_residual_relative_to_true_heat": 1.85913149879428e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.622894140764069,
+            "unit_heat_cells_relative_L2": 3.7296118696815577,
+            "unit_total_heat_relative_L2": 5.481918345023938,
+            "unit_power_residual_max_abs": 6.776263578034403e-21,
+            "unit_power_residual_relative_to_true_heat": 3.7352536676573204e-16,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 2.3705604537854033,
+            "unit_heat_cells_relative_L2": 3.9421181183654883,
+            "unit_total_heat_relative_L2": 4.821205726810882,
+            "unit_power_residual_max_abs": 1.3552527156068805e-20,
+            "unit_power_residual_relative_to_true_heat": 1.8510010131925415e-15,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        }
+      ]
+    },
+    {
+      "model": "free_seed11.pt",
+      "sha256": "89a95161d82f5e78bc99be146dff39916a142df30dc286b8c87706b561022c6e",
+      "kind": "free",
+      "seed": 11,
+      "cases": [
+        {
+          "seed_group": 12,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.153373426821107,
+            "unit_heat_cells_relative_L2": 6.178440215192399,
+            "unit_total_heat_relative_L2": 9.794893473840036,
+            "unit_power_residual_max_abs": 0.00010251476953404917,
+            "unit_power_residual_relative_to_true_heat": 12.403481139426692,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.158455227752603,
+            "unit_heat_cells_relative_L2": 6.2555245455946675,
+            "unit_total_heat_relative_L2": 9.912660418260023,
+            "unit_power_residual_max_abs": 0.0001026338996668306,
+            "unit_power_residual_relative_to_true_heat": 12.443791871498277,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.16034226190476192,
+            "actual_minimum_heat_cell": -0.00022807093506195801,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.177978742006864,
+            "unit_heat_cells_relative_L2": 6.570347592842636,
+            "unit_total_heat_relative_L2": 10.379753512691106,
+            "unit_power_residual_max_abs": 0.00010270592834562262,
+            "unit_power_residual_relative_to_true_heat": 12.604942668803101,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.16071428571428573,
+            "actual_minimum_heat_cell": -0.00114034548606138,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.199870532332843,
+            "unit_heat_cells_relative_L2": 6.947779528647598,
+            "unit_total_heat_relative_L2": 10.884751073362121,
+            "unit_power_residual_max_abs": 0.00010182650716918258,
+            "unit_power_residual_relative_to_true_heat": 12.805910802296014,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.16034226190476192,
+            "actual_minimum_heat_cell": -0.002280619125588533,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.271557503135558,
+            "unit_heat_cells_relative_L2": 7.455089450599502,
+            "unit_total_heat_relative_L2": 10.791757607334773,
+            "unit_power_residual_max_abs": 9.61236442036282e-05,
+            "unit_power_residual_relative_to_true_heat": 21.92904291873953,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.16703869047619047,
+            "actual_minimum_heat_cell": -0.011393772947180188,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.988684520099131,
+            "unit_heat_cells_relative_L2": 5.917055518218303,
+            "unit_total_heat_relative_L2": 9.103541257219618,
+            "unit_power_residual_max_abs": 0.00013161868052064896,
+            "unit_power_residual_relative_to_true_heat": 11.883463092107197,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.991302547874856,
+            "unit_heat_cells_relative_L2": 5.9199957572281185,
+            "unit_total_heat_relative_L2": 9.116170055316738,
+            "unit_power_residual_max_abs": 0.0001317307568234617,
+            "unit_power_residual_relative_to_true_heat": 11.924412409224365,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.1644345238095238,
+            "actual_minimum_heat_cell": -0.00022708814518343048,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.999808443007892,
+            "unit_heat_cells_relative_L2": 5.910021009263253,
+            "unit_total_heat_relative_L2": 9.14683613366233,
+            "unit_power_residual_max_abs": 0.0001321395457771511,
+            "unit_power_residual_relative_to_true_heat": 12.088025884829838,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.16555059523809523,
+            "actual_minimum_heat_cell": -0.0011354349683628249,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.007864507377576,
+            "unit_heat_cells_relative_L2": 5.8845941055756885,
+            "unit_total_heat_relative_L2": 9.158937144305462,
+            "unit_power_residual_max_abs": 0.00013252290228627027,
+            "unit_power_residual_relative_to_true_heat": 12.291858607783636,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.1640625,
+            "actual_minimum_heat_cell": -0.0022707902889373367,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.117624092991875,
+            "unit_heat_cells_relative_L2": 6.820346896768093,
+            "unit_total_heat_relative_L2": 9.591215626791072,
+            "unit_power_residual_max_abs": 8.489423286173442e-05,
+            "unit_power_residual_relative_to_true_heat": 25.130520619876172,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.16927083333333334,
+            "actual_minimum_heat_cell": -0.011344194986817577,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.93274190193293,
+            "unit_heat_cells_relative_L2": 7.018541345729149,
+            "unit_total_heat_relative_L2": 11.13203540483991,
+            "unit_power_residual_max_abs": 0.0001592166954511822,
+            "unit_power_residual_relative_to_true_heat": 13.756369673247226,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.933250751680365,
+            "unit_heat_cells_relative_L2": 7.046833673028468,
+            "unit_total_heat_relative_L2": 11.103217063328543,
+            "unit_power_residual_max_abs": 0.00015931653760429382,
+            "unit_power_residual_relative_to_true_heat": 13.800984083682426,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.15476190476190477,
+            "actual_minimum_heat_cell": -0.00022425863669007636,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.93448945728366,
+            "unit_heat_cells_relative_L2": 7.107185323159179,
+            "unit_total_heat_relative_L2": 10.96994520858588,
+            "unit_power_residual_max_abs": 0.00015981837299823304,
+            "unit_power_residual_relative_to_true_heat": 13.979447226075775,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.15625,
+            "actual_minimum_heat_cell": -0.0011211744851521276,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.93823626666772,
+            "unit_heat_cells_relative_L2": 7.149599537178713,
+            "unit_total_heat_relative_L2": 10.859142479516589,
+            "unit_power_residual_max_abs": 0.00016072889211879784,
+            "unit_power_residual_relative_to_true_heat": 14.202161613766913,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.15848214285714285,
+            "actual_minimum_heat_cell": -0.002241999210025139,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.021585756529582,
+            "unit_heat_cells_relative_L2": 8.706634278682076,
+            "unit_total_heat_relative_L2": 11.726532652366592,
+            "unit_power_residual_max_abs": 0.00017389849115508082,
+            "unit_power_residual_relative_to_true_heat": 19.02557865293281,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.16108630952380953,
+            "actual_minimum_heat_cell": -0.01119062014469442,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.004736320922476,
+            "unit_heat_cells_relative_L2": 7.239474053960233,
+            "unit_total_heat_relative_L2": 10.56701952974673,
+            "unit_power_residual_max_abs": 8.77318840865867e-05,
+            "unit_power_residual_relative_to_true_heat": 13.732385608024433,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.00607326215242,
+            "unit_heat_cells_relative_L2": 7.255598360675167,
+            "unit_total_heat_relative_L2": 10.585764818166238,
+            "unit_power_residual_max_abs": 8.765212449967117e-05,
+            "unit_power_residual_relative_to_true_heat": 13.775558140753128,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.15327380952380953,
+            "actual_minimum_heat_cell": -0.00022964235110064173,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.008720865658601,
+            "unit_heat_cells_relative_L2": 7.247229593695731,
+            "unit_total_heat_relative_L2": 10.593188445678026,
+            "unit_power_residual_max_abs": 8.735621736500013e-05,
+            "unit_power_residual_relative_to_true_heat": 13.948082299371514,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.15550595238095238,
+            "actual_minimum_heat_cell": -0.0011480886633615263,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.007277531827723,
+            "unit_heat_cells_relative_L2": 7.161390172391258,
+            "unit_total_heat_relative_L2": 10.515064564807522,
+            "unit_power_residual_max_abs": 8.70309803897407e-05,
+            "unit_power_residual_relative_to_true_heat": 14.163079205246747,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.1566220238095238,
+            "actual_minimum_heat_cell": -0.0022958612149542035,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.04032863853697,
+            "unit_heat_cells_relative_L2": 8.19629755577665,
+            "unit_total_heat_relative_L2": 10.578609116645245,
+            "unit_power_residual_max_abs": 8.540344065391023e-05,
+            "unit_power_residual_relative_to_true_heat": 18.99302292036521,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.15997023809523808,
+            "actual_minimum_heat_cell": -0.011465122521888126,
+            "no_test_native_mobility_input": true
+          }
+        }
+      ]
+    },
+    {
+      "model": "free_seed29.pt",
+      "sha256": "8ae9ea9dcababb93372c3ef64b5ce2dcceac222fa0299084c83cb624d1700388",
+      "kind": "free",
+      "seed": 29,
+      "cases": [
+        {
+          "seed_group": 12,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.381909363313811,
+            "unit_heat_cells_relative_L2": 5.436458698550556,
+            "unit_total_heat_relative_L2": 5.626179841123473,
+            "unit_power_residual_max_abs": 0.00021173351150553847,
+            "unit_power_residual_relative_to_true_heat": 23.584954724254214,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.387498897827506,
+            "unit_heat_cells_relative_L2": 5.505723769640002,
+            "unit_total_heat_relative_L2": 5.744939211436278,
+            "unit_power_residual_max_abs": 0.00021198759278126097,
+            "unit_power_residual_relative_to_true_heat": 23.64175221512695,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.3828125,
+            "actual_minimum_heat_cell": -0.00016381394035190058,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.4091254761173,
+            "unit_heat_cells_relative_L2": 5.790160677418021,
+            "unit_total_heat_relative_L2": 6.185231240020582,
+            "unit_power_residual_max_abs": 0.0002129906233109445,
+            "unit_power_residual_relative_to_true_heat": 23.86800645929351,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.3828125,
+            "actual_minimum_heat_cell": -0.0008190537784854195,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.434033165809138,
+            "unit_heat_cells_relative_L2": 6.128395040529454,
+            "unit_total_heat_relative_L2": 6.607686803539917,
+            "unit_power_residual_max_abs": 0.00021402564556595387,
+            "unit_power_residual_relative_to_true_heat": 24.148169875839063,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.38392857142857145,
+            "actual_minimum_heat_cell": -0.0016380763375300768,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.54474247399113,
+            "unit_heat_cells_relative_L2": 6.2775371064504055,
+            "unit_total_heat_relative_L2": 6.412882566866749,
+            "unit_power_residual_max_abs": 0.0002138069536130469,
+            "unit_power_residual_relative_to_true_heat": 48.64203834548723,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.39546130952380953,
+            "actual_minimum_heat_cell": -0.008190533670558511,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.249607201326711,
+            "unit_heat_cells_relative_L2": 5.164156782350568,
+            "unit_total_heat_relative_L2": 5.05850111018054,
+            "unit_power_residual_max_abs": 0.00020767052198168088,
+            "unit_power_residual_relative_to_true_heat": 23.04532335968131,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.25311672914483,
+            "unit_heat_cells_relative_L2": 5.158223752968091,
+            "unit_total_heat_relative_L2": 5.0837454824256065,
+            "unit_power_residual_max_abs": 0.0002078113057599305,
+            "unit_power_residual_relative_to_true_heat": 23.104236230545975,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.3880208333333333,
+            "actual_minimum_heat_cell": -0.0001648450739354448,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.264938488864358,
+            "unit_heat_cells_relative_L2": 5.105532978666458,
+            "unit_total_heat_relative_L2": 5.126914033432072,
+            "unit_power_residual_max_abs": 0.00020856596741516384,
+            "unit_power_residual_relative_to_true_heat": 23.338829079035627,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.3872767857142857,
+            "actual_minimum_heat_cell": -0.0008242231338745698,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.27705005788515,
+            "unit_heat_cells_relative_L2": 5.01412660844642,
+            "unit_total_heat_relative_L2": 5.084858012153672,
+            "unit_power_residual_max_abs": 0.00020964255553059663,
+            "unit_power_residual_relative_to_true_heat": 23.629130063689775,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.3872767857142857,
+            "actual_minimum_heat_cell": -0.0016484478044842949,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.425650184909768,
+            "unit_heat_cells_relative_L2": 5.568530811076069,
+            "unit_total_heat_relative_L2": 5.7738806135312855,
+            "unit_power_residual_max_abs": 0.00021046636581973014,
+            "unit_power_residual_relative_to_true_heat": 56.2183037428895,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.39732142857142855,
+            "actual_minimum_heat_cell": -0.008243030248985914,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.81029056174619,
+            "unit_heat_cells_relative_L2": 6.160978805919823,
+            "unit_total_heat_relative_L2": 6.57546037011855,
+            "unit_power_residual_max_abs": 0.00022147984607312992,
+            "unit_power_residual_relative_to_true_heat": 22.1138843329004,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.812126426442822,
+            "unit_heat_cells_relative_L2": 6.173140018801795,
+            "unit_total_heat_relative_L2": 6.4827512363515725,
+            "unit_power_residual_max_abs": 0.00022157430066900872,
+            "unit_power_residual_relative_to_true_heat": 22.168951341518547,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.38095238095238093,
+            "actual_minimum_heat_cell": -0.00016422444663350674,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.81822464693487,
+            "unit_heat_cells_relative_L2": 6.171680039439519,
+            "unit_total_heat_relative_L2": 6.108452959591086,
+            "unit_power_residual_max_abs": 0.00022190247961021922,
+            "unit_power_residual_relative_to_true_heat": 22.388533250913966,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.38244047619047616,
+            "actual_minimum_heat_cell": -0.0008211067949606049,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.826922777153275,
+            "unit_heat_cells_relative_L2": 6.142336459983862,
+            "unit_total_heat_relative_L2": 5.736735283815307,
+            "unit_power_residual_max_abs": 0.0002222120863040963,
+            "unit_power_residual_relative_to_true_heat": 22.779322915789525,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.38430059523809523,
+            "actual_minimum_heat_cell": -0.0016421868388594746,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.942228457710648,
+            "unit_heat_cells_relative_L2": 7.259065551297366,
+            "unit_total_heat_relative_L2": 6.3263040321920325,
+            "unit_power_residual_max_abs": 0.00022052067033198999,
+            "unit_power_residual_relative_to_true_heat": 42.44333967340098,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.3947172619047619,
+            "actual_minimum_heat_cell": -0.00821155564023852,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.133194768996981,
+            "unit_heat_cells_relative_L2": 6.439027388572933,
+            "unit_total_heat_relative_L2": 6.358284949003368,
+            "unit_power_residual_max_abs": 0.00022347388327814536,
+            "unit_power_residual_relative_to_true_heat": 23.81070999306615,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.135570423562859,
+            "unit_heat_cells_relative_L2": 6.442598869347285,
+            "unit_total_heat_relative_L2": 6.338131326655007,
+            "unit_power_residual_max_abs": 0.00022353001008756316,
+            "unit_power_residual_relative_to_true_heat": 23.868199843609666,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.3820684523809524,
+            "actual_minimum_heat_cell": -0.00016628594070379124,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.142450935371448,
+            "unit_heat_cells_relative_L2": 6.384999474341333,
+            "unit_total_heat_relative_L2": 6.1985456724327905,
+            "unit_power_residual_max_abs": 0.00022367529595786114,
+            "unit_power_residual_relative_to_true_heat": 25.861444099995985,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.38169642857142855,
+            "actual_minimum_heat_cell": -0.0008314259331151178,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.146695365087856,
+            "unit_heat_cells_relative_L2": 6.237173281829884,
+            "unit_total_heat_relative_L2": 5.948173507773326,
+            "unit_power_residual_max_abs": 0.00022367431937277875,
+            "unit_power_residual_relative_to_true_heat": 29.475786814515146,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.3828125,
+            "actual_minimum_heat_cell": -0.0016628502711825846,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 12.222545749992479,
+            "unit_heat_cells_relative_L2": 6.847756666942053,
+            "unit_total_heat_relative_L2": 6.014213197461132,
+            "unit_power_residual_max_abs": 0.00021971823417291667,
+            "unit_power_residual_relative_to_true_heat": 52.74890268979512,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.39732142857142855,
+            "actual_minimum_heat_cell": -0.00831520024063875,
+            "no_test_native_mobility_input": true
+          }
+        }
+      ]
+    },
+    {
+      "model": "free_seed47.pt",
+      "sha256": "9a40ed8d073709842945f3075d82ee794caa4b7abd6dac8b6d7b87faf5ea0608",
+      "kind": "free",
+      "seed": 47,
+      "cases": [
+        {
+          "seed_group": 12,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.07428299883986,
+            "unit_heat_cells_relative_L2": 6.313569720290984,
+            "unit_total_heat_relative_L2": 11.968091029361128,
+            "unit_power_residual_max_abs": 0.00031117032264821684,
+            "unit_power_residual_relative_to_true_heat": 11.114724590955772,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.080248131172791,
+            "unit_heat_cells_relative_L2": 6.389870125362621,
+            "unit_total_heat_relative_L2": 12.113908490515998,
+            "unit_power_residual_max_abs": 0.0003113324967600967,
+            "unit_power_residual_relative_to_true_heat": 11.466679338934755,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.06770833333333333,
+            "actual_minimum_heat_cell": -2.569763089488086e-05,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.103052041716776,
+            "unit_heat_cells_relative_L2": 6.704879217439218,
+            "unit_total_heat_relative_L2": 12.691600604502982,
+            "unit_power_residual_max_abs": 0.0003115997793817733,
+            "unit_power_residual_relative_to_true_heat": 13.145372397069298,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.06770833333333333,
+            "actual_minimum_heat_cell": -0.00012864340008711592,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.128518373047275,
+            "unit_heat_cells_relative_L2": 7.088412599755447,
+            "unit_total_heat_relative_L2": 13.329606067415286,
+            "unit_power_residual_max_abs": 0.0003112992544671881,
+            "unit_power_residual_relative_to_true_heat": 15.776772155457737,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0665922619047619,
+            "actual_minimum_heat_cell": -0.0002576244618602636,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 12,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 11.228818960925086,
+            "unit_heat_cells_relative_L2": 7.6791266675188705,
+            "unit_total_heat_relative_L2": 14.007976201140488,
+            "unit_power_residual_max_abs": 0.00023002421005505734,
+            "unit_power_residual_relative_to_true_heat": 39.8893270191474,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.07180059523809523,
+            "actual_minimum_heat_cell": -0.0013057499818133122,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.6475894647134,
+            "unit_heat_cells_relative_L2": 6.058588546802405,
+            "unit_total_heat_relative_L2": 10.971727431423766,
+            "unit_power_residual_max_abs": 0.0002360928336144506,
+            "unit_power_residual_relative_to_true_heat": 12.884252650098416,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.6509014839429,
+            "unit_heat_cells_relative_L2": 6.059512756049635,
+            "unit_total_heat_relative_L2": 11.008921557428149,
+            "unit_power_residual_max_abs": 0.00023560490472036144,
+            "unit_power_residual_relative_to_true_heat": 13.145395626812771,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.06956845238095238,
+            "actual_minimum_heat_cell": -2.6454276390856932e-05,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.662004497573166,
+            "unit_heat_cells_relative_L2": 6.044385577948647,
+            "unit_total_heat_relative_L2": 11.140218540906918,
+            "unit_power_residual_max_abs": 0.0002340024680090772,
+            "unit_power_residual_relative_to_true_heat": 14.368279377745147,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0703125,
+            "actual_minimum_heat_cell": -0.00013250618758033143,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.673032054552083,
+            "unit_heat_cells_relative_L2": 6.0186343105143,
+            "unit_total_heat_relative_L2": 11.281400041526764,
+            "unit_power_residual_max_abs": 0.00023269349315574792,
+            "unit_power_residual_relative_to_true_heat": 16.329392059465153,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0703125,
+            "actual_minimum_heat_cell": -0.0002655343414295913,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 13,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.807620910458095,
+            "unit_heat_cells_relative_L2": 6.973111328091144,
+            "unit_total_heat_relative_L2": 12.31505926325887,
+            "unit_power_residual_max_abs": 0.0002300079948748161,
+            "unit_power_residual_relative_to_true_heat": 38.63491936337275,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.07366071428571429,
+            "actual_minimum_heat_cell": -0.0013787457340786395,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.553749477956092,
+            "unit_heat_cells_relative_L2": 7.081165923719745,
+            "unit_total_heat_relative_L2": 13.16825612879931,
+            "unit_power_residual_max_abs": 0.00022996301477083944,
+            "unit_power_residual_relative_to_true_heat": 20.946279690807092,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.554733010405233,
+            "unit_heat_cells_relative_L2": 7.107184958013605,
+            "unit_total_heat_relative_L2": 13.167605028208323,
+            "unit_power_residual_max_abs": 0.00022991739804683887,
+            "unit_power_residual_relative_to_true_heat": 21.744018608662895,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.06324404761904762,
+            "actual_minimum_heat_cell": -2.6712562755215e-05,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.558167077556906,
+            "unit_heat_cells_relative_L2": 7.157949039232614,
+            "unit_total_heat_relative_L2": 13.135878624560275,
+            "unit_power_residual_max_abs": 0.00022972669302148853,
+            "unit_power_residual_relative_to_true_heat": 24.785786405230365,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.06361607142857142,
+            "actual_minimum_heat_cell": -0.00013359955722525835,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.56542983028639,
+            "unit_heat_cells_relative_L2": 7.187653808541179,
+            "unit_total_heat_relative_L2": 13.137509486120104,
+            "unit_power_residual_max_abs": 0.00022947223997071394,
+            "unit_power_residual_relative_to_true_heat": 28.025142022126005,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.06473214285714286,
+            "actual_minimum_heat_cell": -0.0002673848094495273,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 14,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.680857132189194,
+            "unit_heat_cells_relative_L2": 8.701829819309069,
+            "unit_total_heat_relative_L2": 14.609985929843244,
+            "unit_power_residual_max_abs": 0.00022736020688798365,
+            "unit_power_residual_relative_to_true_heat": 45.11499767587629,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.06696428571428571,
+            "actual_minimum_heat_cell": -0.00135581931703193,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 0,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.36090296010725,
+            "unit_heat_cells_relative_L2": 7.3123279024763566,
+            "unit_total_heat_relative_L2": 12.417066437160976,
+            "unit_power_residual_max_abs": 0.00022120041838869637,
+            "unit_power_residual_relative_to_true_heat": 27.962319317568493,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0,
+            "actual_minimum_heat_cell": 0.0,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 10,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.362507731299608,
+            "unit_heat_cells_relative_L2": 7.329312672394863,
+            "unit_total_heat_relative_L2": 12.454746893108137,
+            "unit_power_residual_max_abs": 0.00022102348180622238,
+            "unit_power_residual_relative_to_true_heat": 29.601320146119917,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.06510416666666667,
+            "actual_minimum_heat_cell": -2.5390637667674166e-05,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 50,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.366331296722619,
+            "unit_heat_cells_relative_L2": 7.323034988207753,
+            "unit_total_heat_relative_L2": 12.532651231119992,
+            "unit_power_residual_max_abs": 0.0002209065799397939,
+            "unit_power_residual_relative_to_true_heat": 35.27059352995213,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.06547619047619048,
+            "actual_minimum_heat_cell": -0.00012734268937907185,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 100,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.366528481896582,
+            "unit_heat_cells_relative_L2": 7.236937791558485,
+            "unit_total_heat_relative_L2": 12.541124027591833,
+            "unit_power_residual_max_abs": 0.00022152222574493827,
+            "unit_power_residual_relative_to_true_heat": 40.123407184322275,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.0662202380952381,
+            "actual_minimum_heat_cell": -0.0002556954840416093,
+            "no_test_native_mobility_input": true
+          }
+        },
+        {
+          "seed_group": 15,
+          "kappa": 500,
+          "predictions_all_finite": true,
+          "nonfinite_prediction_fraction": 0.0,
+          "metrics": {
+            "unit_phase_rate_relative_L2": 10.421801730819315,
+            "unit_heat_cells_relative_L2": 8.189612649485277,
+            "unit_total_heat_relative_L2": 13.120273840952374,
+            "unit_power_residual_max_abs": 0.00022826011908751756,
+            "unit_power_residual_relative_to_true_heat": 73.08245665478528,
+            "phase_pair_antisymmetry_max_abs": 0.0,
+            "actual_negative_heat_cell_fraction": 0.07142857142857142,
+            "actual_minimum_heat_cell": -0.001315809942752963,
+            "no_test_native_mobility_input": true
+          }
+        }
+      ]
+    }
+  ],
+  "all_six_original_checkpoints_hash_checked": true,
+  "retrained": false,
+  "selected_using_new_tests": false,
+  "scope": "Temporal extension beyond the original time-0-to-0.005 training support, not a claim about the original native Hamiltonian."
+}

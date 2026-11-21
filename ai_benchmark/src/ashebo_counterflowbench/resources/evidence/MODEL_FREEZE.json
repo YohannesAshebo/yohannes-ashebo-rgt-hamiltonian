@@ -1,0 +1,38 @@
+{
+  "protocol_sha256": "940287c3868151db31fe0d1a55b18b6dce74586c06a2509f41b338ca980c9d5d",
+  "normalizers_sha256": "6cbea92f5245be94a613e5f293067781d56ea09252d2d917d30bb50fb6ca9a2f",
+  "models": [
+    {
+      "kind": "direct_DCT",
+      "file": "models/direct_DCT.pt",
+      "sha256": "d1f69c74209f3f0e894ac4c17a88e33c7b28a6bfc5923a767ebfd660e9a959f0",
+      "best_update": 1000,
+      "best_validation_loss": 0.21182928977602208,
+      "parameters": 18604,
+      "seconds": 22.059408672001155
+    },
+    {
+      "kind": "generic_raw_phases",
+      "file": "models/generic_raw_phases.pt",
+      "sha256": "b1480a30b9fb67d20196d8f8b0a510ea98db4df34bf9d64f03e5ea99d304ddee",
+      "best_update": 1200,
+      "best_validation_loss": 1.3224236611992755,
+      "parameters": 18434,
+      "seconds": 38.69062750300509
+    },
+    {
+      "kind": "generic_U1",
+      "file": "models/generic_U1.pt",
+      "sha256": "91d8feed80dbd8bc7985ce7dac00434b43750821704bc514f31c75ee41b8cae2",
+      "best_update": 1200,
+      "best_validation_loss": 1.3129080701373277,
+      "parameters": 18434,
+      "seconds": 38.24142365300213
+    }
+  ],
+  "training_samples": 504,
+  "validation_samples": 126,
+  "test_arrays_opened_by_training": false,
+  "selection": "Validation only, before held-out arrays are opened by model evaluation",
+  "training_seed": 20261120
+}

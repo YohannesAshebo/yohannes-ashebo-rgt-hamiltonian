@@ -1,0 +1,50 @@
+[
+  {
+    "kind": "direct_DCT",
+    "seed_group": 12,
+    "kappa": 100,
+    "both_complete": false,
+    "max_scaled_state_difference": null,
+    "interpretation": "A time-refinement indicator for this neural vector field; no claim of exact discrete energy conservation."
+  },
+  {
+    "kind": "direct_DCT",
+    "seed_group": 12,
+    "kappa": 500,
+    "both_complete": false,
+    "max_scaled_state_difference": null,
+    "interpretation": "A time-refinement indicator for this neural vector field; no claim of exact discrete energy conservation."
+  },
+  {
+    "kind": "generic_raw_phases",
+    "seed_group": 12,
+    "kappa": 100,
+    "both_complete": false,
+    "max_scaled_state_difference": null,
+    "interpretation": "A time-refinement indicator for this neural vector field; no claim of exact discrete energy conservation."
+  },
+  {
+    "kind": "generic_raw_phases",
+    "seed_group": 12,
+    "kappa": 500,
+    "both_complete": false,
+    "max_scaled_state_difference": null,
+    "interpretation": "A time-refinement indicator for this neural vector field; no claim of exact discrete energy conservation."
+  },
+  {
+    "kind": "generic_U1",
+    "seed_group": 12,
+    "kappa": 100,
+    "both_complete": false,
+    "max_scaled_state_difference": null,
+    "interpretation": "A time-refinement indicator for this neural vector field; no claim of exact discrete energy conservation."
+  },
+  {
+    "kind": "generic_U1",
+    "seed_group": 12,
+    "kappa": 500,
+    "both_complete": false,
+    "max_scaled_state_difference": null,
+    "interpretation": "A time-refinement indicator for this neural vector field; no claim of exact discrete energy conservation."
+  }
+]
