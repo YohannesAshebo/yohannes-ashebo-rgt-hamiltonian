@@ -1,0 +1,12 @@
+Ashebo CounterflowBench, version 0.1.0
+Copyright 2026 Yohannes Beyene Ashebo
+Ashebophysics
+
+An additive physics-AI benchmark and interface for the Ashebo RGT Hamiltonian
+Reference Solver. The original Hamiltonian source is retained without changes.
+Implementation and audits developed with OpenAI ChatGPT assistance.
+No independent external replication or peer review is implied.
+
+The package uses NumPy, with optional PyTorch, SciPy and Matplotlib dependencies.
+Those dependencies retain their own licenses. No upstream Poisson-GENERIC
+author notebook is incorporated into this component.

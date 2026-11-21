@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this benchmark when using its dataset, interface or evaluation protocol."
+type: software
+title: "Ashebo CounterflowBench: A Radial Hamiltonian and Heat-Production Benchmark for Physics AI"
+version: 0.1.0
+date-released: "2026-11-20"
+license: Apache-2.0
+authors:
+  - family-names: Ashebo
+    given-names: Yohannes Beyene
+    affiliation: Ashebophysics
+repository-code: "https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian"
+url: "https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian/tree/main/ai_benchmark"
+abstract: >-
+  An additive finite-grid synthetic physics-AI benchmark with 50 radial
+  counterflow trajectories, seed-group train/validation/test splits, canonical
+  Hamiltonian gradients, conservative and dissipative operators, heat labels,
+  native energy/content audits and a trained known-H heating surrogate.
+keywords:
+  - physics AI
+  - scientific machine learning
+  - Hamiltonian neural networks
+  - dissipative dynamics
+  - neural operators
+  - reproducible benchmark
