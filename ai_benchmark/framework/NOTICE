@@ -1,0 +1,12 @@
+Ashebo Hybrid, version 0.1.0
+Copyright 2026 Yohannes Beyene Ashebo
+Ashebophysics
+
+Standalone exact-mechanics and positive-dissipation building blocks.
+Implementation and audits developed with OpenAI ChatGPT assistance.
+No RGT solver source, upstream author neural-operator notebook or private
+research checkout is required by this package. Numerical tests are internal
+computational checks; no independent replication or cross-domain empirical
+validation is implied.
+
+NumPy and the optional PyTorch/SciPy dependencies retain their own licenses.

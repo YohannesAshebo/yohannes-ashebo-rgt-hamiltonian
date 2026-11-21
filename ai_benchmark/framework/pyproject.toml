@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ashebo-hybrid"
+version = "0.1.0"
+description = "Exact-mechanics and positive-dissipation building blocks with finite-step audits"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+authors = [{name = "Yohannes Beyene Ashebo"}]
+dependencies = ["numpy>=1.26"]
+keywords = ["physics-ai", "hamiltonian", "dissipation", "hybrid-modeling"]
+
+[project.optional-dependencies]
+torch = ["torch>=2.1"]
+adaptive = ["scipy>=1.10"]
+all = ["torch>=2.1", "scipy>=1.10"]
+
+[project.urls]
+Source = "https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian/tree/main/ai_benchmark/framework"
+
+[tool.setuptools.packages.find]
+where = ["src"]
