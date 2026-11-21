@@ -1,0 +1,33 @@
+{
+  "date":"2026-11-20",
+  "purpose":"Perform the pending longer held-out neural validation, including the corrected learned-energy DCT candidate, without editing the original Hamiltonian.",
+  "original_commit":"9bb33e6162eedc20c00a67123212ebe466c618ac",
+  "reference":{
+    "cells":128,"target_time":10.0,"saved_times":[0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10],
+    "train_seed_groups":[0,1,2,3,4,5,6,7],"validation_seed_groups":[8,9],"test_seed_groups":[12,13,14,15],
+    "train_validation_kappas":[10,50,100],"test_kappas":[0,10,50,100,500],
+    "maximum_step":0.005,"control_step":0.0025,"rtol":2.5e-12,"atol":2e-14,
+    "energy_heat_relative_gate":1e-8,"content_relative_gate":1e-10,"comparison_tolerance":1e-6,
+    "max_wall_seconds_per_run":300,"max_accepted_steps_per_run":150000,
+    "time_controls":[{"seed":0,"kappa":100},{"seed":12,"kappa":500}],
+    "complex_gradients":[{"seed":0,"kappa":100,"index":10},{"seed":8,"kappa":50,"index":20},{"seed":12,"kappa":500,"index":20}],
+    "scope":"Fixed N=128; same declared smooth manufactured initial family as the pilot. Held-out seeds 12-15 were not used in preceding experiments. All kappa variants of an initial state stay in the same split. Reference validity and fixed-grid step refinement are distinct from spatial convergence or experimental physical validation."
+  },
+  "networks":{"width":16,"modes":16,"layers":2,"training_seed":20261120},
+  "training":{
+    "updates":1200,"batch_size":24,"validation_every":100,"learning_rate":0.001,"weight_decay":0.000001,"gradient_clip_norm":1.0,
+    "models":["direct_DCT","generic_raw_phases","generic_U1"],
+    "supervision":"All three receive identical training/validation states and exact split-operator/heat labels. The two energy models learn H from reference gradients, reversible rates and energy differences; no native Hamiltonian calls at neural inference. Direct baseline predicts conservative RHS and unit-kappa dissipative rates/heat with the known kappa factorization. This is supervised learning of labeled operators, not blind identification from trajectories alone.",
+    "selection":"Select each checkpoint using validation loss only and save/hash it before test arrays are opened by training/evaluation. No test-dependent training or checkpoint selection. Equal update and backbone width/depth budgets; report parameter counts, not a false claim of identical counts.",
+    "normalization":"Computed from training rows only; record all arrays. Fixed canonical J and native state ordering; positive log-content chart for integration. Friction acts only on equal-and-opposite phase directions. Auxiliary heat is formal extensive storage, not a calibrated physical entropy."
+  },
+  "rollout":{
+    "duration":10.0,"method":"Batched float64 fixed-step RK4 in the native positive-content log chart","maximum_step":0.01,"control_step":0.005,"minimum_step_budget":1e-12,
+    "max_rhs_evaluations":60000,"max_wall_seconds_per_run":180,"max_scaled_chart_deviation_from_initial":10000,
+    "primary":"All 20 held-out initial-state/kappa cases for each new model, unless a declared stability budget is exceeded. Failures and last reached times are reported rather than clipped or repaired.",
+    "metrics":["Held-out conservative/dissipative RHS error", "Total heat error and negative-heat fraction", "Rollout state error versus native reference and persistence", "Native H plus predicted heat drift", "Learned H plus predicted heat drift", "Global total-content drift", "Completion/stability and time refinement"]
+  },
+  "additional_check":"Evaluate the previously frozen short-trained hybrid networks on the new longer test data without retraining or selecting weights using these tests. Full hybrid long rollouts use validation-selected primary weights and predeclared cases seed12/13 kappa100/500 for computational comparison, with the native conservative integrator retained.",
+  "training_implementation":"Two same-width/depth DCT backbones per model. The direct model has a conservative/auxiliary-energy head and an independent phase/heat head. The two GENERIC models have a scalar energy head and a positive scalar mobility head with a fixed rank-one equal-and-opposite phase direction, a special case of the audited rank-K factorization. A training-only mean radial mobility profile and observed active support are shared with the direct head; exact native mobility/torque is not provided at inference. Learned H is offset by mean training H; energy labels carry weight 0.01 in addition to equally weighted normalized conservative and dissipative/heat losses. One training seed is an exploratory architecture comparison, not a statistical superiority test.",
+  "not_claimed":["experimental validation of gravity or other physical applications", "universal applicability", "spatial continuum convergence", "statistical superiority from one neural training seed", "reproduction of the authors' stock paper experiments", "publication of new results on GitHub"]
+}

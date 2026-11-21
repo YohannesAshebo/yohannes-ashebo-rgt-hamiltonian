@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this framework when using its code or audit protocol."
+type: software
+title: "Ashebo Hybrid: Exact Mechanics and Learned Positive Dissipation"
+version: 0.1.0
+date-released: "2026-11-20"
+license: Apache-2.0
+authors:
+  - family-names: Ashebo
+    given-names: Yohannes Beyene
+    affiliation: Ashebophysics
+repository-code: "https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian"
+url: "https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian/tree/main/ai_benchmark/framework"
+keywords:
+  - physics AI
+  - Hamiltonian dynamics
+  - positive dissipation
+  - hybrid modeling
+  - numerical audit

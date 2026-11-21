@@ -1,0 +1,15 @@
+{
+  "purpose":"Controlled refinement prompted by training/validation failure to learn the full Hamiltonian gradient. Retain the exact original Hamiltonian and conservative solver; learn only the positive current-gated mobility from longer training trajectories.",
+  "decision_basis":"The two full learned-energy candidates had normalized conservative validation MSE near one. This hybrid was specified using those training/validation logs, before the hybrid test arrays are scored. The previously frozen three-model results are retained without retuning.",
+  "network":{"width":16,"modes":16,"layers":2,"seed":20261120},
+  "training":{"updates":1600,"batch_size":24,"learning_rate":0.001,"weight_decay":0.000001,"gradient_clip_norm":1,"validation_every":100},
+  "inputs":"Eleven common-phase-invariant radial features plus the exact native Hamiltonian phase torque. No exact native current or mobility at inference. Training-only feature normalization, mean radial mobility and observed support are recorded.",
+  "labels":"Unit-kappa equal-and-opposite phase rates, heat cells, and explicit unit mobility from training only. Loss = normalized phase/heat MSE + 0.1 normalized mobility MSE. It is supervised constitutive approximation with known H, not recovery of an unknown full law.",
+  "factorization":"c_nn = c_base(r)*softplus(DCT(features,D)); phase_C_dot=-kappa*c_nn*D; phase_R_dot=+kappa*c_nn*D; heat_i=kappa*c_nn*D^2. This guarantees the native instantaneous power identity and nonnegative heat for kappa>=0.",
+  "selection":"Validation-only checkpoint, freeze and hash before hybrid test scoring. One training seed; no statistical superiority claim.",
+  "operator_tests":"All 20 longer held-out seed/kappa cases.",
+  "rollout_cases":[{"seed":12,"kappa":100},{"seed":12,"kappa":500},{"seed":13,"kappa":100},{"seed":13,"kappa":500}],
+  "integrator":{"method":"DOP853","max_step":0.01,"control_max_step":0.005,"rtol":1e-9,"atol":1e-11,"max_seconds_per_case":120,"max_rhs_per_case":80000},
+  "time_control":{"seed":12,"kappa":500},
+  "limits":"Native mechanics and native H are still evaluated. No acceleration, continuum or experimental physical claim. Success is limited to this manufactured radial initial-condition family and checked horizon."
+}

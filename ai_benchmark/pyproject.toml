@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ashebo-counterflowbench"
+version = "0.1.0"
+description = "A labeled radial Hamiltonian and heat-production benchmark for physics AI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Yohannes Beyene Ashebo"}]
+dependencies = ["numpy>=1.26"]
+keywords = ["physics-ai", "scientific-machine-learning", "hamiltonian", "counterflow", "benchmark"]
+classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Artificial Intelligence", "Topic :: Scientific/Engineering :: Physics"]
+
+[project.optional-dependencies]
+torch = ["torch>=2.1"]
+native = ["scipy>=1.10"]
+research = ["torch>=2.1", "scipy>=1.10", "matplotlib>=3.8"]
+
+[project.urls]
+Source = "https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian/tree/main/ai_benchmark"
+Issues = "https://github.com/YohannesAshebo/yohannes-ashebo-rgt-hamiltonian/issues"
+
+[project.scripts]
+counterflowbench = "ashebo_counterflowbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ashebo_counterflowbench = ["resources/*.json", "resources/dataset/*.json", "resources/dataset/*.npz", "resources/pretrained/*.json", "resources/pretrained/*.npz", "resources/pretrained/*.pt", "resources/evidence/*.json", "resources/evidence/*.png", "resources/evidence/models/*.pt", "resources/evidence/models/*.npz"]

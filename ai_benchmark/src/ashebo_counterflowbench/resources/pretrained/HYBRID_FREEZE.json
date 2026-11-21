@@ -1,0 +1,9 @@
+{
+  "model_sha256": "47a24b367dfbae2f0ddfebda039b23681b8e4b054d86093c87cbae08223ef8cd",
+  "normalizers_sha256": "674500fb627efcdc76ec8150c5bc105547d47adbe6ee5ff0040e875e9aaff97b",
+  "protocol_sha256": "605c29d3bcea8d0f6b8bbc754cf0a2a3cd52bf5f711028252c667b7a372e3469",
+  "best_update": 1500,
+  "validation_loss": 0.024921442609142426,
+  "parameters": 9233,
+  "test_arrays_opened_by_hybrid_training": false
+}

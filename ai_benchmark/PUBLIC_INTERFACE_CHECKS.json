@@ -1,0 +1,160 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "install_both",
+      "exit_code": 0,
+      "seconds": 5.709845784003846
+    },
+    {
+      "check": "install_engine_only",
+      "exit_code": 0,
+      "seconds": 1.184930233997875
+    },
+    {
+      "check": "numpy_info",
+      "exit_code": 0,
+      "seconds": 0.09432478300004732
+    },
+    {
+      "check": "numpy_verify",
+      "exit_code": 0,
+      "seconds": 0.5323418170009973
+    },
+    {
+      "check": "numpy_demo",
+      "exit_code": 0,
+      "seconds": 0.23201816799701191
+    },
+    {
+      "check": "trained_demo",
+      "exit_code": 0,
+      "seconds": 1.5201453100016806
+    },
+    {
+      "check": "custom_prediction",
+      "exit_code": 0,
+      "seconds": 0.22003009400214069
+    },
+    {
+      "check": "external_operator_grader",
+      "exit_code": 0,
+      "seconds": 0.10113160599576076
+    },
+    {
+      "check": "training_example",
+      "exit_code": 0,
+      "seconds": 3.153594356001122
+    },
+    {
+      "check": "native_generate",
+      "exit_code": 0,
+      "seconds": 1.04993036200176
+    },
+    {
+      "check": "trained_free_rollout",
+      "exit_code": 0,
+      "seconds": 14.116181921002863
+    },
+    {
+      "check": "external_rollout_grader",
+      "exit_code": 0,
+      "seconds": 1.1763585189983132
+    },
+    {
+      "check": "framework_numpy_independence",
+      "exit_code": 0,
+      "seconds": 0.08361066700308584
+    },
+    {
+      "check": "framework_custom_system",
+      "exit_code": 0,
+      "seconds": 0.3299641999983578
+    },
+    {
+      "check": "framework_neural_ood",
+      "exit_code": 0,
+      "seconds": 4.262386270995194
+    }
+  ],
+  "benchmark_contract_tests": 19,
+  "framework_contract_tests": 14,
+  "wheel_hashes": {
+    "ashebo_hybrid-0.1.0-py3-none-any.whl": "02afda4038004b315e461d457afc92f229ce6a31c727f800dad18bd7e0d3ac84",
+    "ashebo_counterflowbench-0.1.0-py3-none-any.whl": "bd8461c558b25fb53816c18fa42eaffe9a8a673a3872539175cfcf193ca21819"
+  },
+  "framework_independent_of_benchmark_and_native_source": true,
+  "original_source_verification": {
+    "verified": true,
+    "baseline_commit": "bc6dff3df3d1aaa24679d800f7d1a7e34df67cff",
+    "files_checked": 94,
+    "changed": [],
+    "missing": []
+  },
+  "full_native_H_hybrid_rollout": {
+    "case": "seed12_k100",
+    "state_chart_relative_L2": 3.991971091799782e-05,
+    "native_H_plus_heat_relative_drift": 6.852682105660715e-15,
+    "total_content_relative_drift": 1.2506677974880082e-15,
+    "final_total_heat_absolute_error": 1.3639212998803676e-05,
+    "final_total_heat_relative_error": 0.0009467746748865585,
+    "maximum_cell_heat_decrease": 0.0,
+    "minimum_accumulated_heat_cell": 0.0
+  },
+  "generic_oscillator_audit": {
+    "completed": true,
+    "failure": null,
+    "energy_heat_relative_drift": 2.723155034800584e-12,
+    "invariant_scaled_drift": 0.0,
+    "instantaneous_power_residual_max_abs": 5.551115123125783e-17,
+    "conservative_power_residual_max_abs": 2.7439600404154772e-17,
+    "instantaneous_invariant_rate_max_abs": 0.0,
+    "minimum_heat_rate": 0.0,
+    "maximum_accumulated_heat_decrease": 0.0,
+    "gradient_check": {
+      "method": "complex_step",
+      "max_absolute_error": 0.0,
+      "max_scaled_error": 0.0
+    },
+    "step_halving": {
+      "completed": true,
+      "max_scaled_state_difference": 6.3823391016626374e-12,
+      "max_scaled_heat_difference": 1.4015039129233742e-12,
+      "step_caps_active": true,
+      "qualified": true,
+      "interpretation": "Two time levels give a refinement indicator, not an empirical order or spatial convergence certificate."
+    },
+    "passed": true
+  },
+  "generic_neural_ood_audit": {
+    "completed": true,
+    "failure": null,
+    "energy_heat_relative_drift": 3.219646771412954e-15,
+    "invariant_scaled_drift": 0.0,
+    "instantaneous_power_residual_max_abs": 1.734723475976807e-18,
+    "conservative_power_residual_max_abs": 8.017483101340202e-19,
+    "instantaneous_invariant_rate_max_abs": 0.0,
+    "minimum_heat_rate": 0.0,
+    "maximum_accumulated_heat_decrease": 0.0,
+    "gradient_check": {
+      "method": "complex_step",
+      "max_absolute_error": 0.0,
+      "max_scaled_error": 0.0
+    },
+    "step_halving": {
+      "completed": true,
+      "max_scaled_state_difference": 1.2446970537594026e-12,
+      "max_scaled_heat_difference": 3.4831946355007304e-14,
+      "step_caps_active": true,
+      "qualified": true,
+      "interpretation": "Two time levels give a refinement indicator, not an empirical order or spatial convergence certificate."
+    },
+    "passed": true,
+    "freeze": {
+      "verified": true,
+      "changed": []
+    },
+    "kappa": 500
+  },
+  "final_wheel_install_and_source_verified": true
+}

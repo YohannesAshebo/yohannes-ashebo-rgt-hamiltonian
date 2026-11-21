@@ -1,0 +1,222 @@
+[
+  {
+    "seed_group": 12,
+    "kappa": 0,
+    "unit_phase_rate_relative_L2": 0.07156668760292643,
+    "unit_heat_cells_relative_L2": 0.18433937855486163,
+    "unit_total_heat_relative_L2": 0.11514757996059125,
+    "unit_mobility_relative_L2": 0.05895422809221717,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 12,
+    "kappa": 10,
+    "unit_phase_rate_relative_L2": 0.07064720529895575,
+    "unit_heat_cells_relative_L2": 0.1834490791583921,
+    "unit_total_heat_relative_L2": 0.11532650485803628,
+    "unit_mobility_relative_L2": 0.058299946093715097,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 12,
+    "kappa": 50,
+    "unit_phase_rate_relative_L2": 0.06775262707637605,
+    "unit_heat_cells_relative_L2": 0.18816118612105528,
+    "unit_total_heat_relative_L2": 0.11576825360544728,
+    "unit_mobility_relative_L2": 0.0561523390713835,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 12,
+    "kappa": 100,
+    "unit_phase_rate_relative_L2": 0.06584923103353685,
+    "unit_heat_cells_relative_L2": 0.2039205839198918,
+    "unit_total_heat_relative_L2": 0.11835580558049794,
+    "unit_mobility_relative_L2": 0.05499184699853496,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 12,
+    "kappa": 500,
+    "unit_phase_rate_relative_L2": 0.08138294577977988,
+    "unit_heat_cells_relative_L2": 0.3298863852606736,
+    "unit_total_heat_relative_L2": 0.17896202262002167,
+    "unit_mobility_relative_L2": 0.15076908887918436,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 13,
+    "kappa": 0,
+    "unit_phase_rate_relative_L2": 0.07160230887892712,
+    "unit_heat_cells_relative_L2": 0.16978642191615104,
+    "unit_total_heat_relative_L2": 0.09654807173904749,
+    "unit_mobility_relative_L2": 0.05819827126957181,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 13,
+    "kappa": 10,
+    "unit_phase_rate_relative_L2": 0.0706971205582487,
+    "unit_heat_cells_relative_L2": 0.1695219538207469,
+    "unit_total_heat_relative_L2": 0.09895033690543131,
+    "unit_mobility_relative_L2": 0.05785672699042131,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 13,
+    "kappa": 50,
+    "unit_phase_rate_relative_L2": 0.06814554403300495,
+    "unit_heat_cells_relative_L2": 0.1759477308236541,
+    "unit_total_heat_relative_L2": 0.10883340113715263,
+    "unit_mobility_relative_L2": 0.056973463400800735,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 13,
+    "kappa": 100,
+    "unit_phase_rate_relative_L2": 0.06665137739200498,
+    "unit_heat_cells_relative_L2": 0.1955861390841851,
+    "unit_total_heat_relative_L2": 0.11843012487330863,
+    "unit_mobility_relative_L2": 0.05735589990174008,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 13,
+    "kappa": 500,
+    "unit_phase_rate_relative_L2": 0.07522382411433308,
+    "unit_heat_cells_relative_L2": 0.28937869806829514,
+    "unit_total_heat_relative_L2": 0.15983682515261463,
+    "unit_mobility_relative_L2": 0.1658726706802604,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 14,
+    "kappa": 0,
+    "unit_phase_rate_relative_L2": 0.0769371144805723,
+    "unit_heat_cells_relative_L2": 0.21679247427910367,
+    "unit_total_heat_relative_L2": 0.07074352311519447,
+    "unit_mobility_relative_L2": 0.0649450031506565,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 14,
+    "kappa": 10,
+    "unit_phase_rate_relative_L2": 0.0760362548605757,
+    "unit_heat_cells_relative_L2": 0.2146454484289118,
+    "unit_total_heat_relative_L2": 0.06925003072996028,
+    "unit_mobility_relative_L2": 0.06384124036481616,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 14,
+    "kappa": 50,
+    "unit_phase_rate_relative_L2": 0.07340505503374226,
+    "unit_heat_cells_relative_L2": 0.20872844839464963,
+    "unit_total_heat_relative_L2": 0.06989978046012398,
+    "unit_mobility_relative_L2": 0.05974721136662346,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 14,
+    "kappa": 100,
+    "unit_phase_rate_relative_L2": 0.07157954259839043,
+    "unit_heat_cells_relative_L2": 0.21100718190616308,
+    "unit_total_heat_relative_L2": 0.07922565106612729,
+    "unit_mobility_relative_L2": 0.05571761577029028,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 14,
+    "kappa": 500,
+    "unit_phase_rate_relative_L2": 0.08829181678627962,
+    "unit_heat_cells_relative_L2": 0.39297588658638416,
+    "unit_total_heat_relative_L2": 0.19638984731599887,
+    "unit_mobility_relative_L2": 0.1376040483297699,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 15,
+    "kappa": 0,
+    "unit_phase_rate_relative_L2": 0.08275283367668235,
+    "unit_heat_cells_relative_L2": 0.2415654781439468,
+    "unit_total_heat_relative_L2": 0.1284939023937684,
+    "unit_mobility_relative_L2": 0.09481808723522737,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 15,
+    "kappa": 10,
+    "unit_phase_rate_relative_L2": 0.08157944125726449,
+    "unit_heat_cells_relative_L2": 0.23906748104403852,
+    "unit_total_heat_relative_L2": 0.12488444748989874,
+    "unit_mobility_relative_L2": 0.09354961461819757,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 15,
+    "kappa": 50,
+    "unit_phase_rate_relative_L2": 0.07753653501681428,
+    "unit_heat_cells_relative_L2": 0.23310711455727443,
+    "unit_total_heat_relative_L2": 0.11744354115899114,
+    "unit_mobility_relative_L2": 0.0884986036116792,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 15,
+    "kappa": 100,
+    "unit_phase_rate_relative_L2": 0.07327812351579915,
+    "unit_heat_cells_relative_L2": 0.22813942751432584,
+    "unit_total_heat_relative_L2": 0.11624270666659792,
+    "unit_mobility_relative_L2": 0.08230743083859345,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  },
+  {
+    "seed_group": 15,
+    "kappa": 500,
+    "unit_phase_rate_relative_L2": 0.07244323678499001,
+    "unit_heat_cells_relative_L2": 0.2682939192449691,
+    "unit_total_heat_relative_L2": 0.14581713780361732,
+    "unit_mobility_relative_L2": 0.12584802029423775,
+    "power_residual_max_abs": 0.0,
+    "minimum_heat_power_cell": 0.0,
+    "negative_heat_fraction": 0.0
+  }
+]

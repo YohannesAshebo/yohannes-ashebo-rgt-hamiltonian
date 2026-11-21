@@ -1,0 +1,21 @@
+{
+  "original_commit": "9bb33e6162eedc20c00a67123212ebe466c618ac",
+  "original_files_unchanged": 94,
+  "all_previous_six_checkpoints_unchanged": true,
+  "all_four_new_checkpoints_unchanged_since_freezing": true,
+  "all_50_dataset_hashes_checked": true,
+  "current_protocol_sha256": "940287c3868151db31fe0d1a55b18b6dce74586c06a2509f41b338ca980c9d5d",
+  "generation_start_protocol_sha256": "504800ec2e065453863efc1edcd582605179cebc2ddfa085bf6a3d053275984d",
+  "protocol_history": "The neural rollout method and training implementation text were finalized while native generation was running. The reference grid, seeds, kappa list, horizon, saved times, integration settings and gates were unchanged. Reference generation used its already loaded reference configuration; no reference outcome was used to select neural test predictions.",
+  "new_candidate_source": "Standalone corrected DCT/canonical factorization; the earlier author FNO is used only to score the six frozen prior models. No upstream source is redistributed.",
+  "public_repository_modified": false,
+  "outreach_sent": false,
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "torch": "2.15.0+cpu",
+    "matplotlib": "3.10.8",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  }
+}
